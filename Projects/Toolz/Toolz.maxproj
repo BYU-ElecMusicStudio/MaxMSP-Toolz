@@ -2,8 +2,8 @@
 	"name" : "Toolz",
 	"version" : 1,
 	"creationdate" : 3784743065,
-	"modificationdate" : 3788552140,
-	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
+	"modificationdate" : 3789572167,
+	"viewrect" : [ 308.0, 150.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -64,6 +64,18 @@
 			"Toolz-L-ISA-OSC-MultiFormatter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"Toolz-L-ISA-PitchSpatialControl.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
+			"fiddle~.mxe64" : 			{
+				"kind" : "object"
 			}
 
 		}
