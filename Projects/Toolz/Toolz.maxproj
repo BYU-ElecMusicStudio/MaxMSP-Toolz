@@ -2,7 +2,7 @@
 	"name" : "Toolz",
 	"version" : 1,
 	"creationdate" : 3790601824,
-	"modificationdate" : 3790601846,
+	"modificationdate" : 3790610145,
 	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -15,6 +15,75 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+,
+			"Toolz-ChannelInput.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-ChannelSender.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-GlobalNoiseMap.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-L-ISA-Multipanner.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-L-ISA-OSC-MultiFormatter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-L-ISA-OSC-Sender.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-L-ISA-OSC-Sender-Single.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-L-ISA-PanningPath.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-L-ISA-PitchSpatialControl.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-MixerChannel.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-MixerTemplate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-NoiseMapReceive.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Toolz-WindGen.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
