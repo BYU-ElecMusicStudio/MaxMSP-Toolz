@@ -2,7 +2,7 @@
 	"name" : "Toolz",
 	"version" : 1,
 	"creationdate" : 3790601824,
-	"modificationdate" : 3790610145,
+	"modificationdate" : 3790710690,
 	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,12 +10,6 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Toolz.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
 			"Toolz-ChannelInput.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
