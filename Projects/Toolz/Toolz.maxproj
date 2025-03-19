@@ -2,8 +2,8 @@
 	"name" : "Toolz",
 	"version" : 1,
 	"creationdate" : 3790601824,
-	"modificationdate" : 3790710690,
-	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
+	"modificationdate" : 3824816682,
+	"viewrect" : [ 25.0, 132.0, 300.0, 474.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -74,10 +74,19 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"WindScene.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
-		"other" : 		{
+		"media" : 		{
+
+		}
+,
+		"externals" : 		{
 
 		}
 

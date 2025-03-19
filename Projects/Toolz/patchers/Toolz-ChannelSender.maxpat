@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 84.0, 2135.0, 1267.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 801.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -185,9 +185,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 134.363640308380127, 59.818184733390808, 36.272724509239197, 15.0 ],
+					"patching_rect" : [ 134.363640308380127, 59.818184733390808, 36.272724509239197, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.090910999999998, 55.454546689987183, 15.0 ],
+					"presentation_rect" : [ 0.0, 20.090910999999998, 55.454546689987183, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
