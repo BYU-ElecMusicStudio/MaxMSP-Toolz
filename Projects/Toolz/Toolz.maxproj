@@ -2,8 +2,8 @@
 	"name" : "Toolz",
 	"version" : 1,
 	"creationdate" : 3790601824,
-	"modificationdate" : 3824816682,
-	"viewrect" : [ 25.0, 132.0, 300.0, 474.0 ],
+	"modificationdate" : 3825265543,
+	"viewrect" : [ 25.0, 158.0, 300.0, 448.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -76,6 +76,11 @@
 			}
 ,
 			"WindScene.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"MW_HymnsInC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
