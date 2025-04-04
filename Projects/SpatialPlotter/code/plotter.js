@@ -1,5 +1,5 @@
 /*
-	Dual Mode with Segment Editing and Ear Playback (Non-blinking Ear)
+	Dual Mode with Segment Editing and Ear Playback (Simple Ear Visualization)
 	
 	This jsui object supports three modes:
 	
@@ -19,7 +19,7 @@
 	  • "setactivesegmenttime <ms>" updates the time for the active segment.
 	
 	Saving/Loading:
-	  • The combined dump now outputs a string of the form:
+	  • The combined dump outputs a string of the form:
 	        loadplots nx1 ny1 nx2 ny2 ... , loadlistener nx1 ny1 nx2 ny2 ... , loadsegtime t1 t2 ...
 	  • Use loadplots, loadlistener, and loadsegtime to restore state.
 	  
@@ -31,7 +31,7 @@
 */
 
 inlets = 1;
-outlets = 2; // Outlet 0: dump output, Outlet 1: distances from ear to plot points
+outlets = 2; // Outlet 0: dump output, Outlet 1: ear-centric coordinates for plot points
 
 sketch.ortho3d(); // Use orthographic projection
 
@@ -78,6 +78,8 @@ var draggingIndexPath = -1;
 // ----------------------
 var earActive = false;
 var earPaused = false;
+// Instead of separate earSegment and earT management, we use a global playback time in ms.
+var currentPlaybackTime = 0;
 var earSegment = 0;
 var earT = 0; // Interpolation parameter for current segment (0 to 1)
 var earTask = new Task(animateEar, this);
@@ -108,6 +110,26 @@ function pointLineDistance(x, y, x1, y1, x2, y2) {
     var dx = x - xx;
     var dy = y - yy;
     return Math.sqrt(dx * dx + dy * dy);
+}
+
+// ----------------------
+// Update Ear Position
+// ----------------------
+// Given currentPlaybackTime (ms) and segmentTimes, update earSegment and earT.
+function updateEarPosition() {
+    var t = currentPlaybackTime;
+    var seg = 0;
+    while (seg < segmentTimes.length && t > segmentTimes[seg]) {
+        t -= segmentTimes[seg];
+        seg++;
+    }
+    if (seg >= segmentTimes.length) {
+        seg = segmentTimes.length - 1;
+        earT = 1;
+    } else {
+        earT = t / segmentTimes[seg];
+    }
+    earSegment = seg;
 }
 
 // ----------------------
@@ -191,32 +213,30 @@ function draw() {
 		}
 		
 		// ----------------------
-		// Draw Ear (Playback)
+		// Draw Ear (Playback) as a Square
 		// ----------------------
-		if (earActive && listenerPoints.length >= 2 && earSegment < listenerPoints.length - 1) {
-			// Calculate ear position by linear interpolation along the current segment.
+		if (earActive && listenerPoints.length >= 2 && earSegment < listenerPoints.length) {
 			var lp0 = listenerPoints[earSegment];
-			var lp1 = listenerPoints[earSegment+1];
+			var lp1 = listenerPoints[Math.min(earSegment+1, listenerPoints.length-1)];
 			var nx = (1 - earT) * lp0.nx + earT * lp1.nx;
 			var ny = (1 - earT) * lp0.ny + earT * lp1.ny;
 			var sx = nx * width;
 			var sy = (1 - ny) * height;
-			// Draw ear as a red triangle.
-			var size = 10; // Triangle size in pixels
-			var p1x = sx;
-			var p1y = sy - size/2;
-			var p2x = sx - size/2;
-			var p2y = sy + size/2;
-			var p3x = sx + size/2;
-			var p3y = sy + size/2;
-			var worldP1 = sketch.screentoworld(p1x, p1y);
-			var worldP2 = sketch.screentoworld(p2x, p2y);
-			var worldP3 = sketch.screentoworld(p3x, p3y);
-			glcolor([1, 0, 0, 1]); // Solid red
-			moveto(worldP1);
-			lineto(worldP2);
-			lineto(worldP3);
-			lineto(worldP1);
+			
+			// Convert ear center (screen coordinates) to world coordinates.
+			var worldEar = sketch.screentoworld(sx, sy);
+			// Draw ear as a red square.
+			var halfSize = vradius; // using vradius as half side length
+			var topLeft = [worldEar[0] - halfSize, worldEar[1] + halfSize];
+			var topRight = [worldEar[0] + halfSize, worldEar[1] + halfSize];
+			var bottomRight = [worldEar[0] + halfSize, worldEar[1] - halfSize];
+			var bottomLeft = [worldEar[0] - halfSize, worldEar[1] - halfSize];
+			glcolor([1, 0, 0, 1]);
+			moveto(topLeft);
+			lineto(topRight);
+			lineto(bottomRight);
+			lineto(bottomLeft);
+			lineto(topLeft);
 		}
 	}
 	refresh();
@@ -230,41 +250,84 @@ function onclick(x, y, but, cmd, shift, capslock, option, ctrl) {
 	var height = box.rect[3] - box.rect[1];
 	var threshold = 10;
 	
-	// In ambiguous cases, default to current mode.
 	if (mode === "point") {
-		draggingIndexPlot = -1;
-		for (var i = 0; i < plotPoints.length; i++) {
-			var pp = plotPoints[i];
-			var sx = pp.nx * width;
-			var sy = (1 - pp.ny) * height;
-			var d = Math.sqrt((x - sx) * (x - sx) + (y - sy) * (y - sy));
-			if (d < threshold) {
-				draggingIndexPlot = i;
-				break;
+		// If Shift is held, remove a plot point if clicked close enough.
+		if(shift) {
+			for (var i = 0; i < plotPoints.length; i++) {
+				var pp = plotPoints[i];
+				var sx = pp.nx * width;
+				var sy = (1 - pp.ny) * height;
+				var d = Math.sqrt((x - sx) * (x - sx) + (y - sy) * (y - sy));
+				if (d < threshold) {
+					plotPoints.splice(i, 1);
+					draw();
+					return;
+				}
 			}
-		}
-		if (draggingIndexPlot < 0) {
-			var newPoint = { nx: x / width, ny: 1 - y / height };
-			plotPoints.push(newPoint);
-			draggingIndexPlot = plotPoints.length - 1;
+		} else {
+			draggingIndexPlot = -1;
+			for (var i = 0; i < plotPoints.length; i++) {
+				var pp = plotPoints[i];
+				var sx = pp.nx * width;
+				var sy = (1 - pp.ny) * height;
+				var d = Math.sqrt((x - sx) * (x - sx) + (y - sy) * (y - sy));
+				if (d < threshold) {
+					draggingIndexPlot = i;
+					break;
+				}
+			}
+			if (draggingIndexPlot < 0) {
+				var newPoint = { nx: x/width, ny: 1 - y/height };
+				plotPoints.push(newPoint);
+				draggingIndexPlot = plotPoints.length - 1;
+			}
 		}
 	} else if (mode === "path") {
-		draggingIndexPath = -1;
-		for (var i = 0; i < listenerPoints.length; i++) {
-			var lp = listenerPoints[i];
-			var sx = lp.nx * width;
-			var sy = (1 - lp.ny) * height;
-			var d = Math.sqrt((x - sx) * (x - sx) + (y - sy) * (y - sy));
-			if (d < threshold) {
-				draggingIndexPath = i;
-				break;
+		// If Shift is held, remove a listener point if clicked close enough.
+		if(shift) {
+			for (var i = 0; i < listenerPoints.length; i++) {
+				var lp = listenerPoints[i];
+				var sx = lp.nx * width;
+				var sy = (1 - lp.ny) * height;
+				var d = Math.sqrt((x - sx) * (x - sx) + (y - sy) * (y - sy));
+				if (d < threshold) {
+					// Remove the point and update segmentTimes accordingly.
+					if (listenerPoints.length <= 1) {
+						return;
+					}
+					if (i === 0) {
+						listenerPoints.splice(i, 1);
+						segmentTimes.splice(0, 1);
+					} else if (i === listenerPoints.length - 1) {
+						listenerPoints.splice(i, 1);
+						segmentTimes.splice(segmentTimes.length-1, 1);
+					} else {
+						var mergedTime = segmentTimes[i-1] + segmentTimes[i];
+						listenerPoints.splice(i, 1);
+						segmentTimes.splice(i-1, 2, mergedTime);
+					}
+					draw();
+					return;
+				}
 			}
-		}
-		if (draggingIndexPath < 0) {
-			var newPoint = { nx: x / width, ny: 1 - y / height };
-			listenerPoints.push(newPoint);
-			draggingIndexPath = listenerPoints.length - 1;
-			segmentTimes.push(1000);
+		} else {
+			draggingIndexPath = -1;
+			for (var i = 0; i < listenerPoints.length; i++) {
+				var lp = listenerPoints[i];
+				var sx = lp.nx * width;
+				var sy = (1 - lp.ny) * height;
+				var d = Math.sqrt((x - sx) * (x - sx) + (y - sy) * (y - sy));
+				if (d < threshold) {
+					draggingIndexPath = i;
+					break;
+				}
+			}
+			if (draggingIndexPath < 0) {
+				var newPoint = { nx: x/width, ny: 1 - y/height };
+				listenerPoints.push(newPoint);
+				draggingIndexPath = listenerPoints.length - 1;
+				segmentTimes.push(1000);
+			}
 		}
 	} else if (mode === "segment") {
 		activeSegmentIndex = -1;
@@ -284,7 +347,6 @@ function onclick(x, y, but, cmd, shift, capslock, option, ctrl) {
 				break;
 			}
 		}
-		// In segment mode, if no segment midpoint is clicked, do nothing.
 	}
 	draw();
 }
@@ -293,13 +355,15 @@ function ondrag(x, y, but, cmd, shift, capslock, option, ctrl) {
 	var width = box.rect[2] - box.rect[0];
 	var height = box.rect[3] - box.rect[1];
 	if (mode === "point") {
-		if (draggingIndexPlot >= 0) {
+		if (draggingIndexPlot >= 0 && draggingIndexPlot < plotPoints.length) {
 			if (x < 0) x = 0;
 			if (x > width) x = width;
 			if (y < 0) y = 0;
 			if (y > height) y = height;
-			plotPoints[draggingIndexPlot].nx = x / width;
-			plotPoints[draggingIndexPlot].ny = 1 - y / height;
+			plotPoints[draggingIndexPlot].nx = x/width;
+			plotPoints[draggingIndexPlot].ny = 1 - y/height;
+		} else {
+			draggingIndexPlot = -1;
 		}
 	} else if (mode === "path") {
 		if (draggingIndexPath >= 0) {
@@ -307,11 +371,10 @@ function ondrag(x, y, but, cmd, shift, capslock, option, ctrl) {
 			if (x > width) x = width;
 			if (y < 0) y = 0;
 			if (y > height) y = height;
-			listenerPoints[draggingIndexPath].nx = x / width;
-			listenerPoints[draggingIndexPath].ny = 1 - y / height;
+			listenerPoints[draggingIndexPath].nx = x/width;
+			listenerPoints[draggingIndexPath].ny = 1 - y/height;
 		}
 	}
-	// In segment mode, dragging is not used.
 	draw();
 }
 
@@ -347,8 +410,6 @@ function segment() {
 // ----------------------
 // Saving / Loading Functions
 // ----------------------
-
-// For individual plots.
 function loadplots() {
 	plotPoints = [];
 	if (arguments.length % 2 !== 0) {
@@ -368,7 +429,6 @@ function dumpplots() {
 	outlet(0, s);
 }
 
-// For listener path points.
 function loadlistener() {
 	listenerPoints = [];
 	if (arguments.length % 2 !== 0) {
@@ -378,7 +438,6 @@ function loadlistener() {
 	for (var i = 0; i < arguments.length; i += 2) {
 		listenerPoints.push({ nx: arguments[i], ny: arguments[i+1] });
 	}
-	// Reinitialize segmentTimes if necessary.
 	if (listenerPoints.length - 1 != segmentTimes.length) {
 		segmentTimes = [];
 		for (var i = 0; i < listenerPoints.length - 1; i++) {
@@ -395,7 +454,6 @@ function dumplistener() {
 	outlet(0, s);
 }
 
-// For segment times.
 function loadsegtime() {
 	segmentTimes = [];
 	for (var i = 0; i < arguments.length; i++) {
@@ -411,29 +469,26 @@ function dumpsegtime() {
 	outlet(0, s);
 }
 
-// Combined dump: outputs a string with all state, using commas.
+// The updated dump function outputs a single combined string with commas between sections.
 function dump() {
-	var s1 = "loadplots";
-	for (var i = 0; i < plotPoints.length; i++) {
-		s1 += " " + plotPoints[i].nx + " " + plotPoints[i].ny;
-	}
-	var s2 = "loadlistener";
-	for (var i = 0; i < listenerPoints.length; i++) {
-		s2 += " " + listenerPoints[i].nx + " " + listenerPoints[i].ny;
-	}
-	var s3 = "loadsegtime";
-	for (var i = 0; i < segmentTimes.length; i++) {
-		s3 += " " + segmentTimes[i];
-	}
-	var s = s1 + ", " + s2 + ", " + s3;
-	outlet(0, s);
+    var s = "loadplots";
+    for (var i = 0; i < plotPoints.length; i++) {
+        s += " " + plotPoints[i].nx + " " + plotPoints[i].ny;
+    }
+    s += ", loadlistener";
+    for (var i = 0; i < listenerPoints.length; i++) {
+        s += " " + listenerPoints[i].nx + " " + listenerPoints[i].ny;
+    }
+    s += ", loadsegtime";
+    for (var i = 0; i < segmentTimes.length; i++) {
+        s += " " + segmentTimes[i];
+    }
+    outlet(0, s);
 }
 
 // ----------------------
 // Segment Time Editing
 // ----------------------
-// In segment mode, sending "setactivesegmenttime <value>" updates that segment's time
-// and leaves the segment active.
 function setactivesegmenttime(v) {
 	if (activeSegmentIndex >= 0 && activeSegmentIndex < segmentTimes.length) {
 		segmentTimes[activeSegmentIndex] = v;
@@ -468,8 +523,15 @@ function Play() {
 	if (!earActive) {
 		earActive = true;
 		earPaused = false;
-		earSegment = 0;
-		earT = 0;
+		// If at the end, reset to 0.
+		var totalTime = 0;
+		for(var i = 0; i < segmentTimes.length; i++){
+			totalTime += segmentTimes[i];
+		}
+		if(currentPlaybackTime >= totalTime){
+			currentPlaybackTime = 0;
+		}
+		updateEarPosition();
 		earTask.schedule(earInterval);
 	} else if (earPaused) {
 		earPaused = false;
@@ -484,74 +546,101 @@ function Pause() {
 function Stop() {
 	earActive = false;
 	earPaused = false;
-	earSegment = 0;
-	earT = 0;
+	currentPlaybackTime = 0;
+	updateEarPosition();
 	earTask.cancel();
 	draw();
 	outlet(1, "stop");
 }
 
 function playbackAt(ms) {
-	var t = ms;
-	var seg = 0;
-	while (seg < segmentTimes.length && t > segmentTimes[seg]) {
-		t -= segmentTimes[seg];
-		seg++;
+	currentPlaybackTime = ms;
+	// Clamp currentPlaybackTime to total path time.
+	var totalTime = 0;
+	for(var i = 0; i < segmentTimes.length; i++){
+		totalTime += segmentTimes[i];
 	}
-	if (seg >= segmentTimes.length) {
-		seg = segmentTimes.length - 1;
-		earT = 1;
-	} else {
-		earT = t / segmentTimes[seg];
+	if(currentPlaybackTime > totalTime){
+		currentPlaybackTime = totalTime;
 	}
-	earSegment = seg;
+	updateEarPosition();
 	draw();
 }
 
 function animateEar() {
-	if (!earActive || earPaused) return;
-	if (listenerPoints.length < 2) return;
-	
-	var currentTime = segmentTimes[earSegment];
-	earT += earInterval / currentTime;
-	if (earT >= 1) {
-		earT = 0;
-		earSegment++;
-		if (earSegment >= listenerPoints.length - 1) {
-			Stop();
-			return;
-		}
-	}
-	draw();
-	
-	// Compute ear's screen position.
-	var lp0 = listenerPoints[earSegment];
-	var lp1 = listenerPoints[earSegment+1];
-	var nx = (1 - earT) * lp0.nx + earT * lp1.nx;
-	var ny = (1 - earT) * lp0.ny + earT * lp1.ny;
-	var earScreenX = nx * (box.rect[2]-box.rect[0]);
-	var earScreenY = (1 - ny) * (box.rect[3]-box.rect[1]);
-	
-	// Compute distances from ear to each plot point.
-	var distances = [];
-	for (var i = 0; i < plotPoints.length; i++) {
-		var pp = plotPoints[i];
-		var px = pp.nx * (box.rect[2]-box.rect[0]);
-		var py = (1 - pp.ny) * (box.rect[3]-box.rect[1]);
-		var dx = earScreenX - px;
-		var dy = earScreenY - py;
-		distances.push(Math.sqrt(dx*dx + dy*dy));
-	}
-	// Output distances as an indexed list: [index, distance, ...]
-	var outList = [];
-	for (var i = 0; i < distances.length; i++) {
-		outList.push(i);
-		outList.push(distances[i]);
-	}
-	outlet(1, outList);
-	
-	earTask.schedule(earInterval);
+    if (!earActive || earPaused) return;
+    if (listenerPoints.length < 2) return;
+    
+    // Calculate total time of the path.
+    var totalTime = 0;
+    for (var i = 0; i < segmentTimes.length; i++) {
+        totalTime += segmentTimes[i];
+    }
+    
+    currentPlaybackTime += earInterval;
+    if (currentPlaybackTime >= totalTime) {
+         currentPlaybackTime = totalTime;
+         updateEarPosition();
+         draw();
+         Stop();
+         return;
+    }
+    updateEarPosition();
+    
+    // Compute ear's screen position.
+    var width = box.rect[2] - box.rect[0];
+    var height = box.rect[3] - box.rect[1];
+    var lp0 = listenerPoints[earSegment];
+    var lp1 = listenerPoints[Math.min(earSegment+1, listenerPoints.length-1)];
+    var nx = (1 - earT) * lp0.nx + earT * lp1.nx;
+    var ny = (1 - earT) * lp0.ny + earT * lp1.ny;
+    var earScreenX = nx * width;
+    var earScreenY = (1 - ny) * height;
+    
+    // Calculate the forward vector in screen coordinates.
+    var startX = lp0.nx * width;
+    var startY = (1 - lp0.ny) * height;
+    var endX = lp1.nx * width;
+    var endY = (1 - lp1.ny) * height;
+    var fx = endX - startX;
+    var fy = endY - startY;
+    var fMag = Math.sqrt(fx*fx + fy*fy);
+    if (fMag !== 0) {
+        fx /= fMag;
+        fy /= fMag;
+    }
+    // Compute heading angle so that if ear's forward is north, headingAngle = 0.
+    // We use: headingAngle = atan2(fx, -fy)
+    var headingAngle = Math.atan2(fx, -fy);
+    
+    // For each plot point, compute the relative vector from the ear in screen space,
+    // rotate it by -headingAngle to align the ear's forward with north,
+    // then convert the result to polar coordinates.
+    var outputStr = "";
+    for (var i = 0; i < plotPoints.length; i++) {
+        var pp = plotPoints[i];
+        var px = pp.nx * width;
+        var py = (1 - pp.ny) * height;
+        var rx = px - earScreenX;
+        var ry = py - earScreenY;
+        // Rotate by -headingAngle:
+        var rRot_x = rx * Math.cos(headingAngle) + ry * Math.sin(headingAngle);
+        var rRot_y = -rx * Math.sin(headingAngle) + ry * Math.cos(headingAngle);
+        var distance = Math.sqrt(rRot_x * rRot_x + rRot_y * rRot_y);
+        // Compute the angle relative to north (0° when directly ahead)
+        // Using atan2(rRot_x, -rRot_y) so that a point directly ahead yields 0°.
+        var angleDeg = Math.atan2(rRot_x, -rRot_y) * 180 / Math.PI;
+        outputStr += i + " " + distance.toFixed(2) + " " + angleDeg.toFixed(2);
+        if(i < plotPoints.length - 1) {
+            outputStr += ", ";
+        }
+    }
+    outlet(1, outputStr);
+    
+    draw();
+    earTask.schedule(earInterval);
 }
+
 
 function onresize(w, h) {
 	draw();

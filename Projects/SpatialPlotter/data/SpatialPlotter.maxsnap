@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "SpatialPlotter",
+	"origin" : "SpatialPlotter",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"live.tab" : 0.0,
+				"live.text" : 0.0
+			}
+
+		}
+
+	}
+
+}
