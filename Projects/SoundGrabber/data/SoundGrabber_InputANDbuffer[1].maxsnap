@@ -1,0 +1,28 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "SoundGrabber_InputANDbuffer[1]",
+	"origin" : "SoundGrabber_InputANDbuffer",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"live.gain~" : 0.0,
+				"live.menu" : 4.0,
+				"live.menu[28]" : 1.0,
+				"live.numbox" : 0.0,
+				"live.numbox[1]" : 10.0,
+				"live.numbox[2]" : 0.0,
+				"live.text" : 0.0,
+				"live.text[1]" : 0.0,
+				"live.text[2]" : 0.0
+			}
+
+		}
+
+	}
+
+}
