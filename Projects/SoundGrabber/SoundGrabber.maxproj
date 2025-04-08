@@ -2,8 +2,8 @@
 	"name" : "SoundGrabber",
 	"version" : 1,
 	"creationdate" : 3824490582,
-	"modificationdate" : 3824662491,
-	"viewrect" : [ 325.0, 265.0, 1095.0, 494.0 ],
+	"modificationdate" : 3826993894,
+	"viewrect" : [ 325.0, 265.0, 278.0, 494.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -17,6 +17,11 @@
 			}
 ,
 			"SoundGrabber_InputANDbuffer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"GameTrakToLISA.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

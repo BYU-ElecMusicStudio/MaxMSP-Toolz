@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<L-ISA_Session Version="17">
+<L-ISA_Session Version="18">
   <SoundscapeViewPresets>
     <Preset Valid="0"/>
     <Preset Valid="0"/>
@@ -16,9 +16,9 @@
            DisplayEUserHasSetValue="0" DisplayRatio="0.1381548643112183"
            DisplayWarp="0.3618669211864471" DynamicDelayMax="30.0">
     <Source SourceID="1" MadiIn="0" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.3716022670269012" Width="0.0" Distance="1.0"
-            Elevation="0.7142152786254883" Sub="0.0" DirectSoundSwitch="1"
-            DistGainSwitch="0" DistHFSwitch="0" ReverbEarlySwitch="0" ReverbClusterSwitch="0"
+            SourceCtrlID="-1" Pan="0.6258246302604675" Width="1.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="0"
+            DistHFSwitch="0" ReverbEarlySwitch="0" ReverbClusterSwitch="0"
             ReverbLateSwitch="0" PolarityInverted="0" LockedParamFlag="0"
             SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
             OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
@@ -29,9 +29,9 @@
             IsIsolated="0" ShowFX="1" SourceOscID="0" ExtOscOutDevices="0"
             Name="Cello-L"/>
     <Source SourceID="2" MadiIn="1" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.3276785314083099" Width="0.0" Distance="1.0"
-            Elevation="0.01316277403384447" Sub="0.0" DirectSoundSwitch="1"
-            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            SourceCtrlID="-1" Pan="0.2962952554225922" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
             ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
             SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
             OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
@@ -42,7 +42,7 @@
             IsIsolated="0" ShowFX="1" SourceOscID="1" ExtOscOutDevices="0"
             Name="Cello-L"/>
     <Source SourceID="3" MadiIn="2" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.8931441903114319" Width="0.0" Distance="1.0"
+            SourceCtrlID="-1" Pan="0.6296655535697937" Width="1.0" Distance="0.1500000059604645"
             Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
             DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
             ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
@@ -55,7 +55,7 @@
             IsIsolated="0" ShowFX="1" SourceOscID="2" ExtOscOutDevices="0"
             Name="Cello-L"/>
     <Source SourceID="4" MadiIn="3" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.08238402009010315" Width="0.0" Distance="1.0"
+            SourceCtrlID="-1" Pan="0.4399999976158142" Width="1.0" Distance="0.1500000059604645"
             Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
             DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
             ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
@@ -68,7 +68,7 @@
             IsIsolated="0" ShowFX="1" SourceOscID="3" ExtOscOutDevices="0"
             Name="Cello-L"/>
     <Source SourceID="5" MadiIn="4" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.3237524628639221" Width="0.0" Distance="1.0"
+            SourceCtrlID="-1" Pan="0.1599999964237213" Width="1.0" Distance="0.1500000059604645"
             Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
             DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
             ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
@@ -81,7 +81,7 @@
             IsIsolated="0" ShowFX="1" SourceOscID="4" ExtOscOutDevices="0"
             Name="Cello-L"/>
     <Source SourceID="6" MadiIn="5" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.6840623021125793" Width="0.0" Distance="1.0"
+            SourceCtrlID="-1" Pan="0.1099999994039536" Width="1.0" Distance="0.1500000059604645"
             Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
             DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
             ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
@@ -94,37 +94,36 @@
             IsIsolated="0" ShowFX="1" SourceOscID="5" ExtOscOutDevices="0"
             Name="Cello-L"/>
     <Source SourceID="7" MadiIn="6" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.9992588758468628" Width="0.0" Distance="1.0"
-            Elevation="0.8861894607543945" Sub="0.0" DirectSoundSwitch="1"
-            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
-            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
-            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
-            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
-            SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
-            SnapRecallIsolate="0" Colour="10" DelaySwitch="0" DelayMode="1"
-            StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
-            IsDisplayedInSoundscape="1" IsDisplayedInTrackers="1" DesklinkEnabled="0"
-            IsIsolated="0" ShowFX="1" SourceOscID="6" ExtOscOutDevices="0"
-            Name="Cello-L"/>
-    <Source SourceID="8" MadiIn="7" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.08353938162326813" Width="0.0" Distance="1.0"
-            Elevation="0.02194980345666409" Sub="0.0" DirectSoundSwitch="1"
-            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
-            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
-            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
-            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
-            SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
-            SnapRecallIsolate="0" Colour="10" DelaySwitch="0" DelayMode="1"
-            StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
-            IsDisplayedInSoundscape="1" IsDisplayedInTrackers="1" DesklinkEnabled="0"
-            IsIsolated="0" ShowFX="1" SourceOscID="7" ExtOscOutDevices="0"
-            Name="Cello-L"/>
-    <Source SourceID="9" MadiIn="8" IsPaired="0" SourcePairID="-1" IsPairActive="0"
             SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
             Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
             ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
             PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
             PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
+            SnapRecallIsolate="0" Colour="5" DelaySwitch="0" DelayMode="1"
+            StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
+            IsDisplayedInSoundscape="1" IsDisplayedInTrackers="1" DesklinkEnabled="0"
+            IsIsolated="0" ShowFX="1" SourceOscID="6" ExtOscOutDevices="0"
+            Name="Cello-L"/>
+    <Source SourceID="8" MadiIn="7" IsPaired="0" SourcePairID="-1" IsPairActive="0"
+            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
+            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
+            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
+            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
+            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
+            SnapRecallIsolate="0" Colour="5" DelaySwitch="0" DelayMode="1"
+            StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
+            IsDisplayedInSoundscape="1" IsDisplayedInTrackers="1" DesklinkEnabled="0"
+            IsIsolated="0" ShowFX="1" SourceOscID="7" ExtOscOutDevices="0"
+            Name="Cello-L"/>
+    <Source SourceID="9" MadiIn="8" IsPaired="0" SourcePairID="-1" IsPairActive="0"
+            SourceCtrlID="-1" Pan="0.6909545063972473" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.1435703337192535" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -132,11 +131,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="8" ExtOscOutDevices="0"
             Name="Cello-R"/>
     <Source SourceID="10" MadiIn="9" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.3465577960014343" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.1428866684436798" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -144,11 +144,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="9" ExtOscOutDevices="0"
             Name="Cello-R"/>
     <Source SourceID="11" MadiIn="10" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.6384292840957642" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.1415193229913712" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -156,11 +157,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="10" ExtOscOutDevices="0"
             Name="Cello-R"/>
     <Source SourceID="12" MadiIn="11" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.1838451623916626" Width="0.0" Distance="0.1040903851389885"
+            Elevation="0.1422029882669449" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -168,11 +170,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="11" ExtOscOutDevices="0"
             Name="Cello-R"/>
     <Source SourceID="13" MadiIn="12" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.2360232621431351" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.13946832716465" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -180,11 +183,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="12" ExtOscOutDevices="0"
             Name="Cello-R"/>
     <Source SourceID="14" MadiIn="13" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.008852776139974594" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.1210092753171921" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -198,7 +202,7 @@
             PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
             PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
-            SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
+            SnapRecallIsolate="0" Colour="5" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
             IsDisplayedInSoundscape="1" IsDisplayedInTrackers="1" DesklinkEnabled="0"
             IsIsolated="0" ShowFX="1" SourceOscID="14" ExtOscOutDevices="0"
@@ -210,13 +214,14 @@
             PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
             PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
-            SnapRecallIsolate="0" Colour="2" DelaySwitch="0" DelayMode="1"
+            SnapRecallIsolate="0" Colour="5" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
             IsDisplayedInSoundscape="1" IsDisplayedInTrackers="1" DesklinkEnabled="0"
             IsIsolated="0" ShowFX="1" SourceOscID="15" ExtOscOutDevices="0"
             Name="Cello-R"/>
     <Source SourceID="17" MadiIn="16" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
+            SourceCtrlID="-1" Pan="0.3367159962654114" Width="0.9527559876441956"
+            Distance="0.07356899976730347" Elevation="0.2519690096378326"
             Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
             ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
             PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
@@ -228,10 +233,11 @@
             IsIsolated="0" ShowFX="1" SourceOscID="16" ExtOscOutDevices="0"
             Name="Source 17"/>
     <Source SourceID="18" MadiIn="17" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
+            SourceCtrlID="-1" Pan="0.2068679928779602" Width="0.9606299996376038"
+            Distance="0.1530829966068268" Elevation="0.173227995634079" Sub="0.0"
+            DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1"
+            ReverbClusterSwitch="1" ReverbLateSwitch="1" PolarityInverted="0"
+            LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
             PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
@@ -240,7 +246,8 @@
             IsIsolated="0" ShowFX="1" SourceOscID="17" ExtOscOutDevices="0"
             Name="Source 18"/>
     <Source SourceID="19" MadiIn="18" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
+            SourceCtrlID="-1" Pan="0.3731679916381836" Width="0.9448819756507874"
+            Distance="0.1362749934196472" Elevation="0.1259839981794357"
             Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
             ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
             PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
@@ -252,10 +259,11 @@
             IsIsolated="0" ShowFX="1" SourceOscID="18" ExtOscOutDevices="0"
             Name="Source 19"/>
     <Source SourceID="20" MadiIn="19" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
+            SourceCtrlID="-1" Pan="0.4486390054225922" Width="0.9448819756507874"
+            Distance="0.1191219985485077" Elevation="0.149606004357338" Sub="0.0"
+            DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1"
+            ReverbClusterSwitch="1" ReverbLateSwitch="1" PolarityInverted="0"
+            LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
             PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
@@ -264,10 +272,11 @@
             IsIsolated="0" ShowFX="1" SourceOscID="19" ExtOscOutDevices="0"
             Name="Source 20"/>
     <Source SourceID="21" MadiIn="20" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
+            SourceCtrlID="-1" Pan="0.5897729992866516" Width="0.9527559876441956"
+            Distance="0.156687006354332" Elevation="0.2204719930887222" Sub="0.0"
+            DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1"
+            ReverbClusterSwitch="1" ReverbLateSwitch="1" PolarityInverted="0"
+            LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
             PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
@@ -276,11 +285,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="20" ExtOscOutDevices="0"
             Name="Source 21"/>
     <Source SourceID="22" MadiIn="21" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.712673008441925" Width="1.0" Distance="0.1386449933052063"
+            Elevation="0.1181100010871887" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -288,11 +298,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="21" ExtOscOutDevices="0"
             Name="Source 22"/>
     <Source SourceID="23" MadiIn="22" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.9010339975357056" Width="1.0" Distance="0.05640700086951256"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -300,11 +311,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="22" ExtOscOutDevices="0"
             Name="Source 23"/>
     <Source SourceID="24" MadiIn="23" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.6406340003013611" Width="1.0" Distance="0.1062380000948906"
+            Elevation="0.2283460050821304" Sub="0.0" DirectSoundSwitch="1"
+            DistGainSwitch="1" DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -312,11 +324,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="23" ExtOscOutDevices="0"
             Name="Source 24"/>
     <Source SourceID="25" MadiIn="24" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.300000011920929" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -324,11 +337,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="24" ExtOscOutDevices="0"
             Name="Source 25"/>
     <Source SourceID="26" MadiIn="25" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.3199999928474426" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -336,11 +350,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="25" ExtOscOutDevices="0"
             Name="Source 26"/>
     <Source SourceID="27" MadiIn="26" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.4000000059604645" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -348,11 +363,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="26" ExtOscOutDevices="0"
             Name="Source 27"/>
     <Source SourceID="28" MadiIn="27" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.25" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -360,11 +376,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="27" ExtOscOutDevices="0"
             Name="Source 28"/>
     <Source SourceID="29" MadiIn="28" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.7200000286102295" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -372,11 +389,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="28" ExtOscOutDevices="0"
             Name="Source 29"/>
     <Source SourceID="30" MadiIn="29" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.550000011920929" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -384,11 +402,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="29" ExtOscOutDevices="0"
             Name="Source 30"/>
     <Source SourceID="31" MadiIn="30" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.05999999865889549" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -396,11 +415,12 @@
             IsIsolated="0" ShowFX="1" SourceOscID="30" ExtOscOutDevices="0"
             Name="Source 31"/>
     <Source SourceID="32" MadiIn="31" IsPaired="0" SourcePairID="-1" IsPairActive="0"
-            SourceCtrlID="-1" Pan="0.5" Width="0.0" Distance="1.0" Elevation="0.0"
-            Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1" DistHFSwitch="1"
-            ReverbEarlySwitch="1" ReverbClusterSwitch="1" ReverbLateSwitch="1"
-            PolarityInverted="0" LockedParamFlag="0" SafeParamFlag="0" SnapshotParamFlag="224"
-            PluginParamFlag="0" OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
+            SourceCtrlID="-1" Pan="0.07000000029802322" Width="0.0" Distance="0.1500000059604645"
+            Elevation="0.0" Sub="0.0" DirectSoundSwitch="1" DistGainSwitch="1"
+            DistHFSwitch="1" ReverbEarlySwitch="1" ReverbClusterSwitch="1"
+            ReverbLateSwitch="1" PolarityInverted="0" LockedParamFlag="0"
+            SafeParamFlag="0" SnapshotParamFlag="224" PluginParamFlag="0"
+            OSCParamFlag="31" TrackerParamFlag="0" DesklinkParamFlag="255"
             SnapRecallCtrl="1" SnapRecallDisp="1" SnapRecallProc="1" SnapRecallDelay="1"
             SnapRecallIsolate="0" Colour="1" DelaySwitch="0" DelayMode="1"
             StaticDelay="0.0" DelayOffsetSwitch="0" DelayOffset="0.0" IsEnabled="1"
@@ -1185,9 +1205,9 @@
   <Snapshots ShowOSCCol="0" ShowMidiTCCol="1" ShowMidiPrgmChCol="1" FireIntervalAuto="1"
              FireIntervalWindow="" AutoAssignReverb="0" AutoAssignFX="0" AutoAssignSrcControl="0"
              AutoAssignSrcDisplay="0" AutoAssignSrcDelay="0" AutoAssignSrcProcessing="0">
-    <Snapshot Name="Snap 1" UUID="11e03abb2b3c40e3837144697c8e5ee8" OscCtrlID="-1"
-              MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1" XfadeTime=""
-              MTCFlag="0" XfadeFlag="0">
+    <Snapshot Locked="0" Name="Snap 1" UUID="11e03abb2b3c40e3837144697c8e5ee8"
+              OscCtrlID="-1" MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1"
+              XfadeTime="" MTCFlag="0" XfadeFlag="0">
       <Sources Enabled="1">
         <SourcesPositions>
           <Source ID="1" Enabled="1" P="0.6073845624923706" W="0.0" D="0.2557258903980255"
@@ -2108,9 +2128,9 @@
       </Sources>
       <GoTo Enabled="1" SnapshotUuid="a93e979dd64c457894e044c19c4b1bbf" WaitTime="00:05.00"/>
     </Snapshot>
-    <Snapshot Name="Snap 2" UUID="a93e979dd64c457894e044c19c4b1bbf" OscCtrlID="-1"
-              MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1" XfadeTime=""
-              MTCFlag="0" XfadeFlag="0">
+    <Snapshot Locked="0" Name="Snap 2" UUID="a93e979dd64c457894e044c19c4b1bbf"
+              OscCtrlID="-1" MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1"
+              XfadeTime="" MTCFlag="0" XfadeFlag="0">
       <Sources Enabled="1">
         <SourcesPositions>
           <Source ID="1" Enabled="1" P="0.6073845624923706" W="0.0" D="0.2557258903980255"
@@ -3031,9 +3051,9 @@
       </Sources>
       <GoTo Enabled="1" SnapshotUuid="076b73d204894041badb396f5b2f708a" WaitTime="00:05.00"/>
     </Snapshot>
-    <Snapshot Name="Snap 3" UUID="076b73d204894041badb396f5b2f708a" OscCtrlID="-1"
-              MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1" XfadeTime=""
-              MTCFlag="0" XfadeFlag="0">
+    <Snapshot Locked="0" Name="Snap 3" UUID="076b73d204894041badb396f5b2f708a"
+              OscCtrlID="-1" MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1"
+              XfadeTime="" MTCFlag="0" XfadeFlag="0">
       <Sources Enabled="1">
         <SourcesPositions>
           <Source ID="1" Enabled="1" P="0.6073845624923706" W="0.0" D="0.2557258903980255"
@@ -3954,9 +3974,9 @@
       </Sources>
       <GoTo Enabled="1" SnapshotUuid="ae474a792bc648ebb539164842b4d5b5" WaitTime="00:05.00"/>
     </Snapshot>
-    <Snapshot Name="Snap 4" UUID="ae474a792bc648ebb539164842b4d5b5" OscCtrlID="-1"
-              MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1" XfadeTime=""
-              MTCFlag="0" XfadeFlag="0">
+    <Snapshot Locked="0" Name="Snap 4" UUID="ae474a792bc648ebb539164842b4d5b5"
+              OscCtrlID="-1" MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1"
+              XfadeTime="" MTCFlag="0" XfadeFlag="0">
       <Sources Enabled="1">
         <SourcesPositions>
           <Source ID="1" Enabled="1" P="0.6073845624923706" W="0.0" D="0.2557258903980255"
@@ -4876,9 +4896,9 @@
         </EffectsSourcesAssigments>
       </Sources>
     </Snapshot>
-    <Snapshot Name="Snap 5" UUID="067d8ba5e15b4b31927df38625b7c03e" OscCtrlID="-1"
-              MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1" XfadeTime=""
-              MTCFlag="0" XfadeFlag="0">
+    <Snapshot Locked="0" Name="Snap 5" UUID="067d8ba5e15b4b31927df38625b7c03e"
+              OscCtrlID="-1" MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1"
+              XfadeTime="" MTCFlag="0" XfadeFlag="0">
       <Sources Enabled="1">
         <SourcesPositions>
           <Source ID="1" Enabled="1" P="0.6073845624923706" W="0.0" D="0.2557258903980255"
@@ -5798,9 +5818,9 @@
         </EffectsSourcesAssigments>
       </Sources>
     </Snapshot>
-    <Snapshot Name="Snap 6" UUID="06246434add548e7913067e6e9ebca02" OscCtrlID="-1"
-              MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1" XfadeTime=""
-              MTCFlag="0" XfadeFlag="0">
+    <Snapshot Locked="0" Name="Snap 6" UUID="06246434add548e7913067e6e9ebca02"
+              OscCtrlID="-1" MidiChannel="-1" MidiProgChange="-1" MTCTime="-1:-1:-1:-1"
+              XfadeTime="" MTCFlag="0" XfadeFlag="0">
       <Sources Enabled="1">
         <SourcesPositions>
           <Source ID="1" Enabled="1" P="0.6073845624923706" W="0.0" D="0.2557258903980255"
@@ -6826,8 +6846,9 @@
   <SpeakersGroup>
     <SpeakerGroup Name="Scene" UUID="2adbf927e6b645f7b6bfd5e195a5521c" SVUUID="36f03c4b55284ee093c1f120c7930dbb"
                   Usage="1" Colour="5" VirtualDistance="7.0" MaxGainGradient="6.0"
-                  SpatialFillSettingsAuto="1" SpatialFillAutoUntickedFlag="0" ReverbGain="1.0"
-                  OutfillLisaDelay="0.0" OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
+                  SpatialFillSettingsAuto="1" SpatialFillAutoUntickedFlag="0" ReverbEarlyGain="1.0"
+                  ReverbClusterGain="1.0" ReverbLateGain="1.0" OutfillLisaDelay="0.0"
+                  OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
       <Speakers>
         <Speaker Speaker="7ec0654e40284f61b450de1f9908613a"/>
         <Speaker Speaker="f8a3744ab7b14a14ae67b57ead6be656"/>
@@ -6840,8 +6861,9 @@
     <SpeakerGroup Name="Left Surrounds" UUID="de4b70f7d57e45eabd2f61510262b425"
                   SVUUID="b8f79e2bff5d44ca9060bc4b9bac53d9" Usage="3" Colour="1"
                   VirtualDistance="7.0" MaxGainGradient="6.0" SpatialFillSettingsAuto="1"
-                  SpatialFillAutoUntickedFlag="0" ReverbGain="1.0" OutfillLisaDelay="0.0"
-                  OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
+                  SpatialFillAutoUntickedFlag="0" ReverbEarlyGain="1.0" ReverbClusterGain="1.0"
+                  ReverbLateGain="1.0" OutfillLisaDelay="0.0" OutfillStereoCompatDelay="0.0"
+                  OutfillInputSignal="1">
       <Speakers>
         <Speaker Speaker="fcb290ab0a46483681c46b6f0cc600ea"/>
         <Speaker Speaker="cb7c480c9fd84a83b006ca3e49c8f59c"/>
@@ -6853,8 +6875,9 @@
     <SpeakerGroup Name="Rear Surrounds" UUID="993b141832a3411b84a4b8c6645c699a"
                   SVUUID="ca3163e73c4c460bb294f9c7c0944c8e" Usage="3" Colour="1"
                   VirtualDistance="7.0" MaxGainGradient="6.0" SpatialFillSettingsAuto="1"
-                  SpatialFillAutoUntickedFlag="0" ReverbGain="1.0" OutfillLisaDelay="0.0"
-                  OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
+                  SpatialFillAutoUntickedFlag="0" ReverbEarlyGain="1.0" ReverbClusterGain="1.0"
+                  ReverbLateGain="1.0" OutfillLisaDelay="0.0" OutfillStereoCompatDelay="0.0"
+                  OutfillInputSignal="1">
       <Speakers>
         <Speaker Speaker="0134f30ebfa14eeeb7f5159b57047e33"/>
         <Speaker Speaker="f0eb194c521d4c0bbacd7b4eba85a905"/>
@@ -6867,8 +6890,9 @@
     <SpeakerGroup Name="Right Surrounds" UUID="d8dd8588b4114fa58ff17cf61ac84090"
                   SVUUID="c9a4e01d170d41c9a0461e04399aaa3d" Usage="3" Colour="1"
                   VirtualDistance="7.0" MaxGainGradient="6.0" SpatialFillSettingsAuto="1"
-                  SpatialFillAutoUntickedFlag="0" ReverbGain="1.0" OutfillLisaDelay="0.0"
-                  OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
+                  SpatialFillAutoUntickedFlag="0" ReverbEarlyGain="1.0" ReverbClusterGain="1.0"
+                  ReverbLateGain="1.0" OutfillLisaDelay="0.0" OutfillStereoCompatDelay="0.0"
+                  OutfillInputSignal="1">
       <Speakers>
         <Speaker Speaker="62dc9365683647378645eed3a4569116"/>
         <Speaker Speaker="790573eb597f459db63e2fa86c509170"/>
@@ -6879,8 +6903,9 @@
     </SpeakerGroup>
     <SpeakerGroup Name="Over Heads" UUID="3c643d109ce4446e8eb49ef33adaa95d" SVUUID="98a82ede956f4df9ace8d0a86ba667e5"
                   Usage="4" Colour="7" VirtualDistance="7.0" MaxGainGradient="6.0"
-                  SpatialFillSettingsAuto="1" SpatialFillAutoUntickedFlag="0" ReverbGain="1.0"
-                  OutfillLisaDelay="0.0" OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
+                  SpatialFillSettingsAuto="1" SpatialFillAutoUntickedFlag="0" ReverbEarlyGain="1.0"
+                  ReverbClusterGain="1.0" ReverbLateGain="1.0" OutfillLisaDelay="0.0"
+                  OutfillStereoCompatDelay="0.0" OutfillInputSignal="1">
       <Speakers>
         <Speaker Speaker="d5dc1aae512b40babee541551026ce5b"/>
         <Speaker Speaker="1f0680b40ce643e1841b17b3cd8afdfa"/>
@@ -6897,7 +6922,7 @@
   <ThreeDView>
     <Translation i0j0="1.0" i0j1="0.0" i0j2="0.0" i0j3="0.0" i1j0="0.0" i1j1="1.0"
                  i1j2="0.0" i1j3="0.0" i2j0="0.0" i2j1="0.0" i2j2="1.0" i2j3="0.0"
-                 i3j0="3.465041231720534e-8" i3j1="-1.68999969959259" i3j2="-5.257800579071045"
+                 i3j0="7.421979830724013e-8" i3j1="-1.68999981880188" i3j2="-5.257800579071045"
                  i3j3="1.0"/>
     <Pitch i0j0="0.999500572681427" i0j1="0.02819063887000084" i0j2="0.01555379014462233"
            i0j3="0.0" i1j0="-0.02819006703794003" i1j1="0.5328717231750488"
@@ -6908,7 +6933,7 @@
          i0j3="0.0" i1j0="0.0" i1j1="1.0" i1j2="0.0" i1j3="0.0" i2j0="0.09061691164970398"
          i2j1="0.0" i2j2="0.9958533048629761" i2j3="0.0" i3j0="0.0" i3j1="0.0"
          i3j2="0.0" i3j3="1.0"/>
-    <Camera p0="-0.6141545176506042" t0="0.0" p1="6.141545295715332" t1="0.0"
+    <Camera p0="-0.6141546368598938" t0="0.0" p1="6.141545295715332" t1="0.0"
             p2="18.42463684082031" t2="0.0"/>
   </ThreeDView>
   <DownmixRefGroups>
@@ -6922,12 +6947,12 @@
   <SystemSimulation>
     <ListeningPositions ActiveIndex="0"/>
   </SystemSimulation>
-  <Reverbs ActiveIndex="4" CommonMix="0.4683687388896942" ReverbMute="0"
+  <Reverbs ActiveIndex="4" CommonMix="0.008740267716348171" ReverbMute="0"
            ShownCtrlCol="0">
     <Reverb Name="Dry" Notes="" NotesEditTime="2023-07-04T14:25:53.790-06:00"
             UUID="87303d5092664a108b388c19bf49b2e4" EarlyPredelay="15" EarlyLevel="0.00009999999747378752"
             EarlyMute="0" EarlyClusterHpf="125" EarlyClusterLpf="4267" ClusterDiffusion="0.7709090709686279"
-            ClusterVirtualRoomSize="15227.0" ClusterLevel="0.00009999999747378752"
+            ClusterVirtualRoomSize="19979.11328125" ClusterLevel="0.00009999999747378752"
             ClusterMute="0" EarlyWidth="0.7853981852531433" LateOnsetTime="70"
             LateOnsetAuto="1" LateOnsetAutoTouchedFlag="0" LateDecayTime="1900"
             LateDecayAuto="1" LateDecayAutoTouchedFlag="0" LateHFDecayRatio="0.4747273027896881"
@@ -6939,7 +6964,7 @@
     <Reverb Name="Small Warm Studio" Notes="" NotesEditTime="2023-07-04T14:25:53.790-06:00"
             UUID="633ed869779945f489f763a069325d3d" EarlyPredelay="15" EarlyLevel="0.4216965138912201"
             EarlyMute="0" EarlyClusterHpf="100" EarlyClusterLpf="6016" ClusterDiffusion="0.5299999713897705"
-            ClusterVirtualRoomSize="237.0" ClusterLevel="0.2113489061594009"
+            ClusterVirtualRoomSize="630.2271728515625" ClusterLevel="0.05747142806649208"
             ClusterMute="0" EarlyWidth="0.7853981852531433" LateOnsetTime="70"
             LateOnsetAuto="1" LateOnsetAutoTouchedFlag="0" LateDecayTime="1900"
             LateDecayAuto="1" LateDecayAutoTouchedFlag="0" LateHFDecayRatio="0.4300000071525574"
@@ -6951,7 +6976,7 @@
     <Reverb Name="Medium Warm Theatre" Notes="" NotesEditTime="2023-07-04T14:25:53.790-06:00"
             UUID="fa2b62b1263847949307047069b88f4e" EarlyPredelay="15" EarlyLevel="0.3981072008609772"
             EarlyMute="0" EarlyClusterHpf="150" EarlyClusterLpf="3467" ClusterDiffusion="0.7690908908843994"
-            ClusterVirtualRoomSize="4187.0" ClusterLevel="0.2371374070644379"
+            ClusterVirtualRoomSize="3989.533447265625" ClusterLevel="0.0393557995557785"
             ClusterMute="0" EarlyWidth="0.7853981852531433" LateOnsetTime="70"
             LateOnsetAuto="1" LateOnsetAutoTouchedFlag="0" LateDecayTime="1900"
             LateDecayAuto="1" LateDecayAutoTouchedFlag="0" LateHFDecayRatio="0.6227272748947144"
@@ -6963,7 +6988,7 @@
     <Reverb Name="Large Warm Concert Hall" Notes="" NotesEditTime="2023-07-04T14:25:53.790-06:00"
             UUID="ec896e861f3447e9a09721ef753b32a1" EarlyPredelay="15" EarlyLevel="0.3548133969306946"
             EarlyMute="0" EarlyClusterHpf="125" EarlyClusterLpf="3837" ClusterDiffusion="0.8254545927047729"
-            ClusterVirtualRoomSize="33457.0" ClusterLevel="0.2371374070644379"
+            ClusterVirtualRoomSize="79585.5234375" ClusterLevel="0.02717296965420246"
             ClusterMute="0" EarlyWidth="0.7853981852531433" LateOnsetTime="70"
             LateOnsetAuto="1" LateOnsetAutoTouchedFlag="0" LateDecayTime="1900"
             LateDecayAuto="1" LateDecayAutoTouchedFlag="0" LateHFDecayRatio="0.4738182127475739"
@@ -6975,7 +7000,7 @@
     <Reverb Name="Large Warm Church" Notes="" NotesEditTime="2023-07-04T14:25:53.790-06:00"
             UUID="6cd4ef4d3f5045f88478ef511ec75de1" EarlyPredelay="15" EarlyLevel="0.3548133969306946"
             EarlyMute="0" EarlyClusterHpf="183" EarlyClusterLpf="2976" ClusterDiffusion="0.6727272868156433"
-            ClusterVirtualRoomSize="131107.0" ClusterLevel="0.2371374070644379"
+            ClusterVirtualRoomSize="277027.5625" ClusterLevel="0.02123741805553436"
             ClusterMute="0" EarlyWidth="0.7853981852531433" LateOnsetTime="70"
             LateOnsetAuto="1" LateOnsetAutoTouchedFlag="0" LateDecayTime="1900"
             LateDecayAuto="1" LateDecayAutoTouchedFlag="0" LateHFDecayRatio="0.3700000047683716"
@@ -7020,8 +7045,10 @@
     </Devices>
   </ExtOSC>
   <Mics>
-    <Mics DisplaySize="0.5"/>
+    <Mics DisplaySize="0.5" DirectEarlyGlobalMute="0"/>
     <MicGroups/>
+    <Routings/>
+    <DirectEarlyMutedSpeakers/>
   </Mics>
   <Tempo UseMidiClock="0" ManualBpm="120.0" MidiBpm="120.0"/>
   <StereoUpMix>
@@ -7033,6 +7060,11 @@
     <Input InputLeft="" InputRight=""/>
     <Output SceneSpeakerGroup="2adbf927e6b645f7b6bfd5e195a5521c"/>
   </StereoUpMix>
+  <SourceSeparation Enable="0">
+    <Input Left="" Right=""/>
+    <Output DrumsLeft="" DrumsRight="" BassLeft="" BassRight="" VocalsLeft=""
+            VocalsRight="" OtherLeft="" OtherRight=""/>
+  </SourceSeparation>
   <Effects>
     <Chain>
       <Effect Name="LFO Pan" PresetIndex="0" PresetDirty="0" State="{&quot;activate&quot;:true,&quot;name&quot;:&quot;LFO Pan&quot;,&quot;parameters&quot;:[{&quot;name&quot;:&quot;Follow timecode&quot;,&quot;type&quot;:&quot;SWITCH&quot;,&quot;value&quot;:false},{&quot;count&quot;:1,&quot;hold&quot;:false,&quot;infinite&quot;:true,&quot;name&quot;:&quot;Repeat&quot;,&quot;type&quot;:&quot;REPEAT&quot;},{&quot;name&quot;:&quot;Speed&quot;,&quot;rate&quot;:0.09787418693304062,&quot;rythm&quot;:[1,1],&quot;sync&quot;:false,&quot;type&quot;:&quot;SPEED&quot;},{&quot;name&quot;:&quot;Direction&quot;,&quot;type&quot;:&quot;DIRECTION&quot;,&quot;value&quot;:2},{&quot;name&quot;:&quot;Mirror stereo sources&quot;,&quot;type&quot;:&quot;SWITCH&quot;,&quot;value&quot;:false},{&quot;name&quot;:&quot;Amplitude&quot;,&quot;type&quot;:&quot;RANGE&quot;,&quot;value&quot;:360.0},{&quot;name&quot;:&quot;Phase Offset&quot;,&quot;type&quot;:&quot;RANGE&quot;,&quot;value&quot;:0.0},{&quot;name&quot;:&quot;Phase Spread&quot;,&quot;type&quot;:&quot;RANGE&quot;,&quot;value&quot;:0.0}],&quot;uuid&quot;:&quot;a92e4ce26b494ab7b386dc6bfa6c1568&quot;}"/>
