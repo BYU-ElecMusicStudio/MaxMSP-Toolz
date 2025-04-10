@@ -2,8 +2,8 @@
 	"name" : "SoundGrabber",
 	"version" : 1,
 	"creationdate" : 3824490582,
-	"modificationdate" : 3827098030,
-	"viewrect" : [ 4.0, 751.0, 275.0, 108.0 ],
+	"modificationdate" : 3827152691,
+	"viewrect" : [ 5.0, 462.0, 275.0, 108.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -36,6 +36,14 @@
 		"media" : 		{
 			"cue.wav" : 			{
 				"kind" : "audiofile",
+				"local" : 1
+			}
+
+		}
+,
+		"code" : 		{
+			"controlManager.js" : 			{
+				"kind" : "javascript",
 				"local" : 1
 			}
 
