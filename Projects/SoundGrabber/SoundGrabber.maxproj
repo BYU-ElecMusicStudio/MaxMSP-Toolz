@@ -2,8 +2,8 @@
 	"name" : "SoundGrabber",
 	"version" : 1,
 	"creationdate" : 3824490582,
-	"modificationdate" : 3827158584,
-	"viewrect" : [ 5.0, 314.0, 275.0, 108.0 ],
+	"modificationdate" : 3827172400,
+	"viewrect" : [ 5.0, 239.0, 371.0, 578.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -38,6 +38,66 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"cue2.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue3.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue4.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue5.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue6.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue7.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue8.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue9.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue10.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue11.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue12.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cue13.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -51,10 +111,6 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 

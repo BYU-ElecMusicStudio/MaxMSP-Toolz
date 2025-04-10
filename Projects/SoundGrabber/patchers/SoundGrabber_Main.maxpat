@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 638.0, 874.0 ],
+		"rect" : [ 41.0, 87.0, 638.0, 874.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1576,7 +1576,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2020,7 +2020,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -2034,7 +2034,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -3165,7 +3165,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3609,7 +3609,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -3623,7 +3623,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -4754,7 +4754,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5198,7 +5198,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -5212,7 +5212,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -6343,7 +6343,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6787,7 +6787,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -6801,7 +6801,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -7932,7 +7932,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8376,7 +8376,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -8390,7 +8390,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -9521,7 +9521,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9965,7 +9965,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -9979,7 +9979,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -11124,7 +11124,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11568,7 +11568,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -11582,7 +11582,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -12713,7 +12713,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13157,7 +13157,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -13171,7 +13171,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -14302,7 +14302,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14746,7 +14746,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -14760,7 +14760,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -15891,7 +15891,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16335,7 +16335,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -16349,7 +16349,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -17480,7 +17480,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -17924,7 +17924,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -17938,7 +17938,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -19160,7 +19160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2021.82298688888568, 526.210270613431931, 50.323531448841095, 24.0 ],
+					"patching_rect" : [ 2021.82298688888568, 526.210270613431931, 50.323531448841095, 25.0 ],
 					"text" : "Current ms",
 					"textjustification" : 1
 				}
@@ -19317,7 +19317,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2167.846113014221373, 392.972595618410196, 71.0, 34.0 ]
+					"patching_rect" : [ 2167.846113014221373, 392.972595618410196, 71.0, 36.0 ]
 				}
 
 			}
@@ -19450,7 +19450,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2168.045775995764416, 215.337486654520035, 95.0, 17.0 ],
+					"patching_rect" : [ 2168.045775995764416, 215.337486654520035, 95.0, 18.0 ],
 					"text" : "expr $i1 * 60 * 60 * 1000"
 				}
 
@@ -19463,7 +19463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2211.428570731705804, 237.262619704008102, 79.0, 17.0 ],
+					"patching_rect" : [ 2211.428570731705804, 237.262619704008102, 79.0, 18.0 ],
 					"text" : "expr $i1 * 60 * 1000"
 				}
 
@@ -19514,7 +19514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2254.811365467647192, 262.931068152189255, 32.0, 17.0 ],
+					"patching_rect" : [ 2254.811365467647192, 262.931068152189255, 32.0, 18.0 ],
 					"text" : "* 1000"
 				}
 
@@ -19527,7 +19527,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2254.811365467647192, 179.449042469263077, 44.0, 15.0 ],
+					"patching_rect" : [ 2254.811365467647192, 179.449042469263077, 44.0, 16.0 ],
 					"text" : "S",
 					"textjustification" : 1
 				}
@@ -19541,7 +19541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2211.428570731705804, 179.449042469263077, 44.0, 15.0 ],
+					"patching_rect" : [ 2211.428570731705804, 179.449042469263077, 44.0, 16.0 ],
 					"text" : "M",
 					"textjustification" : 1
 				}
@@ -19555,7 +19555,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2168.045775995764416, 179.449042469263077, 44.0, 15.0 ],
+					"patching_rect" : [ 2168.045775995764416, 179.449042469263077, 44.0, 16.0 ],
 					"text" : "H",
 					"textjustification" : 1
 				}
@@ -19692,7 +19692,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1461.523836064338866, 526.210270613431931, 50.323531448841095, 24.0 ],
+					"patching_rect" : [ 1461.523836064338866, 526.210270613431931, 50.323531448841095, 25.0 ],
 					"text" : "Current ms",
 					"textjustification" : 1
 				}
@@ -19849,7 +19849,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1607.546962189674559, 392.972595618410196, 71.0, 34.0 ]
+					"patching_rect" : [ 1607.546962189674559, 392.972595618410196, 71.0, 36.0 ]
 				}
 
 			}
@@ -19982,7 +19982,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1607.746625171217602, 215.337486654520035, 95.0, 17.0 ],
+					"patching_rect" : [ 1607.746625171217602, 215.337486654520035, 95.0, 18.0 ],
 					"text" : "expr $i1 * 60 * 60 * 1000"
 				}
 
@@ -19995,7 +19995,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1651.12941990715899, 237.262619704008102, 79.0, 17.0 ],
+					"patching_rect" : [ 1651.12941990715899, 237.262619704008102, 79.0, 18.0 ],
 					"text" : "expr $i1 * 60 * 1000"
 				}
 
@@ -20046,7 +20046,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1694.512214643100378, 262.931068152189255, 32.0, 17.0 ],
+					"patching_rect" : [ 1694.512214643100378, 262.931068152189255, 32.0, 18.0 ],
 					"text" : "* 1000"
 				}
 
@@ -20059,7 +20059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1694.512214643100378, 179.449042469263077, 44.0, 15.0 ],
+					"patching_rect" : [ 1694.512214643100378, 179.449042469263077, 44.0, 16.0 ],
 					"text" : "S",
 					"textjustification" : 1
 				}
@@ -20073,7 +20073,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1651.12941990715899, 179.449042469263077, 44.0, 15.0 ],
+					"patching_rect" : [ 1651.12941990715899, 179.449042469263077, 44.0, 16.0 ],
 					"text" : "M",
 					"textjustification" : 1
 				}
@@ -20087,7 +20087,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1607.746625171217602, 179.449042469263077, 44.0, 15.0 ],
+					"patching_rect" : [ 1607.746625171217602, 179.449042469263077, 44.0, 16.0 ],
 					"text" : "H",
 					"textjustification" : 1
 				}
@@ -20188,7 +20188,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20632,7 +20632,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 511.441169738769531, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimHi",
 									"textjustification" : 1
 								}
@@ -20646,7 +20646,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 15.0 ],
+									"patching_rect" : [ 410.0, 716.0, 76.058825075626373, 16.0 ],
 									"text" : "LoopLimLo",
 									"textjustification" : 1
 								}
@@ -21897,7 +21897,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -23664,7 +23664,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2319.634959530830201, 1134.288781642913818, 88.000001549720764, 35.0 ],
+									"patching_rect" : [ 2319.634959530830201, 1134.288781642913818, 88.000001549720764, 36.0 ],
 									"text" : "/ext/src/14/p $1"
 								}
 
@@ -23727,7 +23727,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2436.601627326011567, 854.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 2436.601627326011567, 854.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -23872,7 +23872,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1897.634959530830429, 1134.288781642913818, 88.000001549720764, 35.0 ],
+									"patching_rect" : [ 1897.634959530830429, 1134.288781642913818, 88.000001549720764, 36.0 ],
 									"text" : "/ext/src/13/p $1"
 								}
 
@@ -23935,7 +23935,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2014.601627326011567, 854.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 2014.601627326011567, 854.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -24080,7 +24080,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1480.634959530830429, 1134.288781642913818, 88.000001549720764, 35.0 ],
+									"patching_rect" : [ 1480.634959530830429, 1134.288781642913818, 88.000001549720764, 36.0 ],
 									"text" : "/ext/src/12/p $1"
 								}
 
@@ -24143,7 +24143,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1597.601627326011567, 854.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 1597.601627326011567, 854.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -24288,7 +24288,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1058.634959530830429, 1134.288781642913818, 88.000001549720764, 35.0 ],
+									"patching_rect" : [ 1058.634959530830429, 1134.288781642913818, 88.000001549720764, 36.0 ],
 									"text" : "/ext/src/11/p $1"
 								}
 
@@ -24351,7 +24351,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1175.601627326011567, 854.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 1175.601627326011567, 854.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -24496,7 +24496,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 642.634959530830429, 1134.288781642913818, 88.000001549720764, 35.0 ],
+									"patching_rect" : [ 642.634959530830429, 1134.288781642913818, 88.000001549720764, 36.0 ],
 									"text" : "/ext/src/10/p $1"
 								}
 
@@ -24559,7 +24559,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 759.601627326011567, 854.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 759.601627326011567, 854.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -24766,7 +24766,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 337.601627326011567, 854.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 337.601627326011567, 854.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -24973,7 +24973,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2436.601627326011567, 484.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 2436.601627326011567, 484.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -25180,7 +25180,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2014.601627326011567, 484.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 2014.601627326011567, 484.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -25387,7 +25387,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1597.601627326011567, 484.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 1597.601627326011567, 484.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -25594,7 +25594,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1175.601627326011567, 484.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 1175.601627326011567, 484.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -25801,7 +25801,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 759.601627326011567, 484.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 759.601627326011567, 484.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -26026,7 +26026,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 337.601627326011567, 484.924751400947571, 49.5, 15.0 ],
+									"patching_rect" : [ 337.601627326011567, 484.924751400947571, 49.5, 16.0 ],
 									"text" : "Channel",
 									"textjustification" : 1
 								}
@@ -31414,13 +31414,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 107.0, 1205.0, 810.0 ],
+						"rect" : [ 740.0, 127.0, 1337.0, 1046.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -31450,6 +31450,1098 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 762.650630593299866, 553.012068629264832, 29.5, 22.0 ],
+									"text" : "+ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 30.833333333333332,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "cue2.wav",
+												"filename" : "cue2.wav",
+												"filekind" : "audiofile",
+												"id" : "u188001776",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue3.wav",
+												"filename" : "cue3.wav",
+												"filekind" : "audiofile",
+												"id" : "u257001779",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue4.wav",
+												"filename" : "cue4.wav",
+												"filekind" : "audiofile",
+												"id" : "u932001782",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue5.wav",
+												"filename" : "cue5.wav",
+												"filekind" : "audiofile",
+												"id" : "u015001785",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue6.wav",
+												"filename" : "cue6.wav",
+												"filekind" : "audiofile",
+												"id" : "u632001788",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue7.wav",
+												"filename" : "cue7.wav",
+												"filekind" : "audiofile",
+												"id" : "u704001791",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue8.wav",
+												"filename" : "cue8.wav",
+												"filekind" : "audiofile",
+												"id" : "u984001794",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue9.wav",
+												"filename" : "cue9.wav",
+												"filekind" : "audiofile",
+												"id" : "u090001797",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue10.wav",
+												"filename" : "cue10.wav",
+												"filekind" : "audiofile",
+												"id" : "u624001800",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue11.wav",
+												"filename" : "cue11.wav",
+												"filekind" : "audiofile",
+												"id" : "u579001803",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue12.wav",
+												"filename" : "cue12.wav",
+												"filekind" : "audiofile",
+												"id" : "u153001806",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue13.wav",
+												"filename" : "cue13.wav",
+												"filekind" : "audiofile",
+												"id" : "u629001809",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-56",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1642.23082160949707, 583.230768203735352, 95.0, 382.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 30.833333333333332,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "cue2.wav",
+												"filename" : "cue2.wav",
+												"filekind" : "audiofile",
+												"id" : "u188001776",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue3.wav",
+												"filename" : "cue3.wav",
+												"filekind" : "audiofile",
+												"id" : "u257001779",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue4.wav",
+												"filename" : "cue4.wav",
+												"filekind" : "audiofile",
+												"id" : "u932001782",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue5.wav",
+												"filename" : "cue5.wav",
+												"filekind" : "audiofile",
+												"id" : "u015001785",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue6.wav",
+												"filename" : "cue6.wav",
+												"filekind" : "audiofile",
+												"id" : "u632001788",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue7.wav",
+												"filename" : "cue7.wav",
+												"filekind" : "audiofile",
+												"id" : "u704001791",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue8.wav",
+												"filename" : "cue8.wav",
+												"filekind" : "audiofile",
+												"id" : "u984001794",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue9.wav",
+												"filename" : "cue9.wav",
+												"filekind" : "audiofile",
+												"id" : "u090001797",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue10.wav",
+												"filename" : "cue10.wav",
+												"filekind" : "audiofile",
+												"id" : "u624001800",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue11.wav",
+												"filename" : "cue11.wav",
+												"filekind" : "audiofile",
+												"id" : "u579001803",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue12.wav",
+												"filename" : "cue12.wav",
+												"filekind" : "audiofile",
+												"id" : "u153001806",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue13.wav",
+												"filename" : "cue13.wav",
+												"filekind" : "audiofile",
+												"id" : "u629001809",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-57",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1484.23082160949707, 583.230768203735352, 95.0, 382.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 30.833333333333332,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "cue2.wav",
+												"filename" : "cue2.wav",
+												"filekind" : "audiofile",
+												"id" : "u188001776",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue3.wav",
+												"filename" : "cue3.wav",
+												"filekind" : "audiofile",
+												"id" : "u257001779",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue4.wav",
+												"filename" : "cue4.wav",
+												"filekind" : "audiofile",
+												"id" : "u932001782",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue5.wav",
+												"filename" : "cue5.wav",
+												"filekind" : "audiofile",
+												"id" : "u015001785",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue6.wav",
+												"filename" : "cue6.wav",
+												"filekind" : "audiofile",
+												"id" : "u632001788",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue7.wav",
+												"filename" : "cue7.wav",
+												"filekind" : "audiofile",
+												"id" : "u704001791",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue8.wav",
+												"filename" : "cue8.wav",
+												"filekind" : "audiofile",
+												"id" : "u984001794",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue9.wav",
+												"filename" : "cue9.wav",
+												"filekind" : "audiofile",
+												"id" : "u090001797",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue10.wav",
+												"filename" : "cue10.wav",
+												"filekind" : "audiofile",
+												"id" : "u624001800",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue11.wav",
+												"filename" : "cue11.wav",
+												"filekind" : "audiofile",
+												"id" : "u579001803",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue12.wav",
+												"filename" : "cue12.wav",
+												"filekind" : "audiofile",
+												"id" : "u153001806",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue13.wav",
+												"filename" : "cue13.wav",
+												"filekind" : "audiofile",
+												"id" : "u629001809",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-54",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1351.846179962158203, 579.0, 95.0, 382.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 30.833333333333332,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "cue2.wav",
+												"filename" : "cue2.wav",
+												"filekind" : "audiofile",
+												"id" : "u188001776",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue3.wav",
+												"filename" : "cue3.wav",
+												"filekind" : "audiofile",
+												"id" : "u257001779",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue4.wav",
+												"filename" : "cue4.wav",
+												"filekind" : "audiofile",
+												"id" : "u932001782",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue5.wav",
+												"filename" : "cue5.wav",
+												"filekind" : "audiofile",
+												"id" : "u015001785",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue6.wav",
+												"filename" : "cue6.wav",
+												"filekind" : "audiofile",
+												"id" : "u632001788",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue7.wav",
+												"filename" : "cue7.wav",
+												"filekind" : "audiofile",
+												"id" : "u704001791",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue8.wav",
+												"filename" : "cue8.wav",
+												"filekind" : "audiofile",
+												"id" : "u984001794",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue9.wav",
+												"filename" : "cue9.wav",
+												"filekind" : "audiofile",
+												"id" : "u090001797",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue10.wav",
+												"filename" : "cue10.wav",
+												"filekind" : "audiofile",
+												"id" : "u624001800",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue11.wav",
+												"filename" : "cue11.wav",
+												"filekind" : "audiofile",
+												"id" : "u579001803",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue12.wav",
+												"filename" : "cue12.wav",
+												"filekind" : "audiofile",
+												"id" : "u153001806",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue13.wav",
+												"filename" : "cue13.wav",
+												"filekind" : "audiofile",
+												"id" : "u629001809",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-55",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1193.846179962158203, 579.0, 95.0, 382.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 6,
+									"outlettype" : [ "", "", "", "", "", "" ],
+									"patching_rect" : [ 957.626504421234131, 535.0, 585.957850337028503, 22.0 ],
+									"text" : "gate 6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "", "", "int" ],
+									"patching_rect" : [ 901.0, 493.0, 69.0, 22.0 ],
+									"text" : "counter 1 6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 30.833333333333332,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "cue2.wav",
+												"filename" : "cue2.wav",
+												"filekind" : "audiofile",
+												"id" : "u188001776",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue3.wav",
+												"filename" : "cue3.wav",
+												"filekind" : "audiofile",
+												"id" : "u257001779",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue4.wav",
+												"filename" : "cue4.wav",
+												"filekind" : "audiofile",
+												"id" : "u932001782",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue5.wav",
+												"filename" : "cue5.wav",
+												"filekind" : "audiofile",
+												"id" : "u015001785",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue6.wav",
+												"filename" : "cue6.wav",
+												"filekind" : "audiofile",
+												"id" : "u632001788",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue7.wav",
+												"filename" : "cue7.wav",
+												"filekind" : "audiofile",
+												"id" : "u704001791",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue8.wav",
+												"filename" : "cue8.wav",
+												"filekind" : "audiofile",
+												"id" : "u984001794",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue9.wav",
+												"filename" : "cue9.wav",
+												"filekind" : "audiofile",
+												"id" : "u090001797",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue10.wav",
+												"filename" : "cue10.wav",
+												"filekind" : "audiofile",
+												"id" : "u624001800",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue11.wav",
+												"filename" : "cue11.wav",
+												"filekind" : "audiofile",
+												"id" : "u579001803",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue12.wav",
+												"filename" : "cue12.wav",
+												"filekind" : "audiofile",
+												"id" : "u153001806",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "cue13.wav",
+												"filename" : "cue13.wav",
+												"filekind" : "audiofile",
+												"id" : "u629001809",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-51",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1063.0, 580.0, 95.0, 382.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 793.0, 565.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 30.833333333333332,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue2.wav",
+												"filename" : "cue2.wav",
+												"filekind" : "audiofile",
+												"id" : "u188001776",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue3.wav",
+												"filename" : "cue3.wav",
+												"filekind" : "audiofile",
+												"id" : "u257001779",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue4.wav",
+												"filename" : "cue4.wav",
+												"filekind" : "audiofile",
+												"id" : "u932001782",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue5.wav",
+												"filename" : "cue5.wav",
+												"filekind" : "audiofile",
+												"id" : "u015001785",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue6.wav",
+												"filename" : "cue6.wav",
+												"filekind" : "audiofile",
+												"id" : "u632001788",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue7.wav",
+												"filename" : "cue7.wav",
+												"filekind" : "audiofile",
+												"id" : "u704001791",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue8.wav",
+												"filename" : "cue8.wav",
+												"filekind" : "audiofile",
+												"id" : "u984001794",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue9.wav",
+												"filename" : "cue9.wav",
+												"filekind" : "audiofile",
+												"id" : "u090001797",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue10.wav",
+												"filename" : "cue10.wav",
+												"filekind" : "audiofile",
+												"id" : "u624001800",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue11.wav",
+												"filename" : "cue11.wav",
+												"filekind" : "audiofile",
+												"id" : "u579001803",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue12.wav",
+												"filename" : "cue12.wav",
+												"filekind" : "audiofile",
+												"id" : "u153001806",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "C:/Users/akevin2/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media/cue13.wav",
+												"filename" : "cue13.wav",
+												"filekind" : "audiofile",
+												"id" : "u629001809",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-48",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 905.0, 580.0, 95.0, 382.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 715.0, 488.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"patching_rect" : [ 715.0, 527.0, 43.0, 22.0 ],
+									"text" : "urn 12"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-31",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -31457,7 +32549,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 831.0, 674.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"live.gain~" : [ -70.0 ]
+										"live.gain~" : [ -0.433884297520663 ]
 									}
 ,
 									"text" : "autopattr",
@@ -31475,7 +32567,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 641.75, 668.0, 136.0, 47.0 ],
+									"patching_rect" : [ 911.629528045654297, 1037.879531741142273, 136.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.717917999999997, 61.0, 116.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
@@ -31508,50 +32600,11 @@
 							}
 , 							{
 								"box" : 								{
-									"basictuning" : 440,
-									"data" : 									{
-										"clips" : [ 											{
-												"absolutepath" : "cue.wav",
-												"filename" : "cue.wav",
-												"filekind" : "audiofile",
-												"id" : "u657009466",
-												"selection" : [ 0.0, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-
-												}
-
-											}
- ]
-									}
-,
-									"followglobaltempo" : 0,
-									"formantcorrection" : 0,
-									"id" : "obj-22",
-									"maxclass" : "playlist~",
-									"mode" : "basic",
-									"numinlets" : 1,
-									"numoutlets" : 5,
-									"originallength" : [ 0.0, "ticks" ],
-									"originaltempo" : 120.0,
-									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 642.0, 581.0, 150.0, 30.0 ],
-									"pitchcorrection" : 0,
-									"presentation" : 1,
-									"presentation_rect" : [ 0.717917999999997, 110.0, 116.0, 30.0 ],
-									"quality" : "basic",
-									"timestretch" : [ 0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 641.75, 846.0, 68.0, 22.0 ],
+									"patching_rect" : [ 895.966876864433289, 1137.566275835037231, 68.0, 22.0 ],
 									"text" : "dac~ 31 32"
 								}
 
@@ -31777,7 +32830,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 338.0, 316.0, 34.0, 24.0 ],
+									"patching_rect" : [ 338.0, 316.0, 34.0, 25.0 ],
 									"text" : "/ 60"
 								}
 
@@ -31791,7 +32844,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 443.666655999999989, 316.0, 43.0, 24.0 ],
+									"patching_rect" : [ 443.666655999999989, 316.0, 43.0, 25.0 ],
 									"text" : "% 60"
 								}
 
@@ -31805,7 +32858,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 338.0, 240.0, 34.0, 24.0 ],
+									"patching_rect" : [ 338.0, 240.0, 34.0, 25.0 ],
 									"text" : "/ 60"
 								}
 
@@ -31819,7 +32872,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 549.333344000000011, 241.0, 43.0, 24.0 ],
+									"patching_rect" : [ 549.333344000000011, 241.0, 43.0, 25.0 ],
 									"text" : "% 60"
 								}
 
@@ -31848,7 +32901,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 338.0, 167.0, 51.0, 24.0 ],
+									"patching_rect" : [ 338.0, 167.0, 51.0, 25.0 ],
 									"text" : "/ 1000"
 								}
 
@@ -31875,6 +32928,18 @@
 									"text" : "0:14:36",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 783.0, 493.0, 35.0, 22.0 ],
+									"text" : "clear"
 								}
 
 							}
@@ -31974,21 +33039,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 1 ],
-									"source" : [ "obj-22", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -32004,6 +33055,43 @@
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-32", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"order" : 1,
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"order" : 0,
+									"source" : [ "obj-37", 0 ]
 								}
 
 							}
@@ -32025,8 +33113,155 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-48", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 1 ],
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-51", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"source" : [ "obj-53", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-53", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-53", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-53", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-57", 0 ],
+									"source" : [ "obj-53", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-54", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-55", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-56", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-57", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"source" : [ "obj-58", 0 ]
 								}
 
 							}
@@ -32527,7 +33762,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -32589,7 +33824,7 @@
 										"live.tab[3]" : [ 0.0 ],
 										"live.tab[4]" : [ 0.0 ],
 										"live.tab[5]" : [ 0.0 ],
-										"live.tab[6]" : [ 0.0 ],
+										"live.tab[6]" : [ 1.0 ],
 										"lx_finish" : [ 0.0 ],
 										"lx_output" : [ 223.188749999999999 ],
 										"lx_rslider" : [ 0.0, 1.0 ],
@@ -32628,7 +33863,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-8",
-									"items" : [ "USB Optical Mouse", ",", "Apple Keyboard", ",", "MPD232", ",", "Apple Keyboard 2", ",", "Game-Trak V1.3", ",", "Headset", ",", "BTM", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Vendor Defined Usage 0x1" ],
+									"items" : "<empty>",
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
@@ -32660,9 +33895,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1546.45123291015625, 721.731723785400391, 114.0, 40.0 ],
+									"patching_rect" : [ 1546.45123291015625, 721.731723785400391, 114.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 386.768306732177734, 410.731723785400391, 114.0, 40.0 ],
+									"presentation_rect" : [ 386.768306732177734, 410.731723785400391, 114.0, 41.0 ],
 									"text" : "Right_Z"
 								}
 
@@ -32674,9 +33909,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1296.768300533294678, 721.731723785400391, 115.0, 40.0 ],
+									"patching_rect" : [ 1296.768300533294678, 721.731723785400391, 115.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 215.500008583068848, 410.731723785400391, 115.0, 40.0 ],
+									"presentation_rect" : [ 215.500008583068848, 410.731723785400391, 115.0, 41.0 ],
 									"text" : "Right_Y"
 								}
 
@@ -32688,9 +33923,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1052.500002384185791, 715.731723785400391, 115.0, 40.0 ],
+									"patching_rect" : [ 1052.500002384185791, 715.731723785400391, 115.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 45.414636611938477, 410.731723785400391, 115.0, 40.0 ],
+									"presentation_rect" : [ 45.414636611938477, 410.731723785400391, 115.0, 41.0 ],
 									"text" : "Right_X"
 								}
 
@@ -32702,9 +33937,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 685.45123291015625, 721.731723785400391, 94.0, 40.0 ],
+									"patching_rect" : [ 685.45123291015625, 721.731723785400391, 94.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 388.45123291015625, 144.731723785400391, 94.0, 40.0 ],
+									"presentation_rect" : [ 388.45123291015625, 144.731723785400391, 94.0, 41.0 ],
 									"text" : "Left_Z"
 								}
 
@@ -32716,9 +33951,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 444.426841259002686, 721.731723785400391, 95.0, 40.0 ],
+									"patching_rect" : [ 444.426841259002686, 721.731723785400391, 95.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 217.182934761047363, 144.731723785400391, 95.0, 40.0 ],
+									"presentation_rect" : [ 217.182934761047363, 144.731723785400391, 95.0, 41.0 ],
 									"text" : "Left_Y"
 								}
 
@@ -32730,9 +33965,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 196.914636611938477, 721.0, 95.0, 40.0 ],
+									"patching_rect" : [ 196.914636611938477, 721.0, 95.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 47.097562789916992, 144.731723785400391, 95.0, 40.0 ],
+									"presentation_rect" : [ 47.097562789916992, 144.731723785400391, 95.0, 41.0 ],
 									"text" : "Left_X"
 								}
 
@@ -37000,9 +38235,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.006576953443982, 39.314619362354279, 44.0, 15.0 ],
+					"patching_rect" : [ 107.006576953443982, 39.314619362354279, 44.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.102758721623104, 429.70711961388588, 44.0, 15.0 ],
+					"presentation_rect" : [ 99.102758721623104, 429.70711961388588, 44.0, 16.0 ],
 					"text" : "S",
 					"textjustification" : 1
 				}
@@ -37016,9 +38251,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.623782217502594, 39.314619362354279, 44.0, 15.0 ],
+					"patching_rect" : [ 63.623782217502594, 39.314619362354279, 44.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.719963985681716, 429.70711961388588, 44.0, 15.0 ],
+					"presentation_rect" : [ 55.719963985681716, 429.70711961388588, 44.0, 16.0 ],
 					"text" : "M",
 					"textjustification" : 1
 				}
@@ -37032,9 +38267,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.240987481561206, 39.314619362354279, 44.0, 15.0 ],
+					"patching_rect" : [ 20.240987481561206, 39.314619362354279, 44.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.337169249740327, 429.70711961388588, 44.0, 15.0 ],
+					"presentation_rect" : [ 12.337169249740327, 429.70711961388588, 44.0, 16.0 ],
 					"text" : "H",
 					"textjustification" : 1
 				}
@@ -40495,7 +41730,84 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cue.wav",
+				"name" : "cue10.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue11.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue12.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue13.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue2.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue3.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue4.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue5.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue6.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue7.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue8.wav",
+				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue9.wav",
 				"bootpath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SoundGrabber/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
