@@ -1,83 +1,86 @@
-#!/usr/bin/env python3
+// voiceToggles.js
+// This script reads the state of voices in two groups (Left: voice1–voice6, Right: voice9–voice14)
+// and updates corresponding toggle objects (panX and distanceX) based on group control state.
+// Control state values: 0 = Both, 1 = Pan, 2 = Distance
+// If a voice is inactive (0) then both toggles are updated to 0.
 
-# A dictionary to keep track of each voice's state.
-voice_states = {}
+inlets = 1;
+outlets = 0;  // no outlets are used; we're updating patcher objects directly
+autowatch = 1;
 
-def update_voice_state(voice_index, active, control_state):
-    """
-    Update the voice state and return the output controls.
-    
-    Args:
-        voice_index (int): The voice identification number.
-        active (bool): True if the voice is active, False otherwise.
-        control_state (str): Can be "Pan", "Distance", or "Both".
+function bang() {
+    post("Bang received: updating voice states...\n");
+    // Process left and right groups separately.
+    updateGroup([1,2,3,4,5,6], "LeftControlState");
+    updateGroup([9,10,11,12,13,14], "RightControlState");
+}
+
+/**
+ * updateGroup updates toggles for each voice in a group.
+ * @param {Array} voiceArray - Array of voice numbers (e.g., [1,2,3,4,5,6])
+ * @param {String} controlStateName - The scripting name of the control state object for this group.
+ */
+function updateGroup(voiceArray, controlStateName) {
+    // Retrieve the control state object from the patcher.
+    var ctrlObj = this.patcher.getnamed(controlStateName);
+    if (!ctrlObj) {
+        error("updateGroup: Could not find control state object: " + controlStateName + "\n");
+        return;
+    }
+    var controlState = ctrlObj.getvalueof();
+    post("updateGroup: " + controlStateName + " value: " + controlState + "\n");
+
+    // Process each voice in the group.
+    for (var i = 0; i < voiceArray.length; i++) {
+        var voiceNum = voiceArray[i];
+        // Get the voice object by its scripting name.
+        var voiceObj = this.patcher.getnamed("voice" + voiceNum);
+        if (!voiceObj) {
+            error("updateGroup: Could not find voice object: voice" + voiceNum + "\n");
+            continue;
+        }
+        // Convert the voice value to a number to ensure proper truthy/falsy evaluation.
+        var rawValue = voiceObj.getvalueof();
+        var voiceActive = Number(rawValue);
+        post("Updating voice" + voiceNum + " | raw active value: " + rawValue +
+             " --> numeric: " + voiceActive + 
+             ", control state: " + controlState);
         
-    Returns:
-        tuple: (voice_index, pan_control, distance_control) with pan_control 
-               and distance_control as integers (1 for True, 0 for False).
-    """
-    # Save the state for future tracking (if needed)
-    voice_states[voice_index] = (active, control_state)
-    
-    # Determine the outputs. When inactive, both controls are off.
-    if not active:
-        pan = False
-        distance = False
-    else:
-        # Normalize control_state to lowercase to avoid case issues.
-        cs = control_state.lower()
-        if cs == "both":
-            pan = True
-            distance = True
-        elif cs == "pan":
-            pan = True
-            distance = False
-        elif cs == "distance":
-            pan = False
-            distance = True
-        else:
-            # Fallback for unexpected input
-            pan = False
-            distance = False
-    # Return as integers to match the sample output (1 for True, 0 for False)
-    return voice_index, int(pan), int(distance)
+        // Default values for toggles: both off.
+        var panVal = 0;
+        var distanceVal = 0;
 
-def main():
-    """
-    Main loop: reads input lines from the user and outputs the control states.
-    """
-    print("Enter voice updates (format: <voice_index> <active> <control_state>)")
-    print("For example: 12 1 Both\nPress Ctrl+C to quit.")
-    try:
-        while True:
-            # Read an input line and remove any extra whitespace.
-            line = input().strip()
-            if not line:
-                continue  # Skip empty lines
+        // Only update toggles if the voice is active (voiceActive is non-zero).
+        if (voiceActive) {
+            if (controlState == 0) {         // Both on.
+                panVal = 1;
+                distanceVal = 1;
+            } else if (controlState == 1) {   // Pan only.
+                panVal = 1;
+                distanceVal = 0;
+            } else if (controlState == 2) {   // Distance only.
+                panVal = 0;
+                distanceVal = 1;
+            } else {
+                error("updateGroup: Invalid control state (" + controlState +
+                      ") from " + controlStateName + "\n");
+            }
+        }
+        post(" => pan: " + panVal + ", distance: " + distanceVal + "\n");
 
-            # Split the line into parts. Expecting exactly 3 values.
-            parts = line.split()
-            if len(parts) != 3:
-                print("Invalid input format. Please enter: <voice_index> <active> <control_state>")
-                continue
-
-            # Parse inputs
-            try:
-                voice_index = int(parts[0])
-                # Convert active flag from string to boolean (assume "1" or "0")
-                active = bool(int(parts[1]))
-                control_state = parts[2]
-            except ValueError:
-                print("Invalid numbers. Make sure the voice index and active flag are numeric.")
-                continue
-
-            # Update voice state and get the output.
-            voice, pan, distance = update_voice_state(voice_index, active, control_state)
-
-            # Print the output in the format: voice_index pan distance
-            print(f"{voice} {pan} {distance}")
-    except KeyboardInterrupt:
-        print("\nExiting...")
-
-if __name__ == '__main__':
-    main()
+        // Update corresponding pan toggle.
+        var panToggle = this.patcher.getnamed("pan" + voiceNum);
+        if (panToggle) {
+            panToggle.message("int", panVal);
+        } else {
+            error("updateGroup: Could not find pan toggle: pan" + voiceNum + "\n");
+        }
+        // Update corresponding distance toggle.
+        var distanceToggle = this.patcher.getnamed("distance" + voiceNum);
+        if (distanceToggle) {
+            distanceToggle.message("int", distanceVal);
+        } else {
+            error("updateGroup: Could not find distance toggle: distance" + voiceNum + "\n");
+        }
+    }
+}

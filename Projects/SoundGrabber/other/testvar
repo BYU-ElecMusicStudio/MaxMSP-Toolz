@@ -1,0 +1,8 @@
+inlets = 0;
+outlets = 1;
+
+function bang ()
+{
+	outlet(0, "Hi" + this.patcher.getnamed("live.text[4]").get());
+	}
+	
