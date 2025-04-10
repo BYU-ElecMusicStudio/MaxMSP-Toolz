@@ -9,7 +9,7 @@ outlets = 0;  // no outlets are used; we're updating patcher objects directly
 autowatch = 1;
 
 function bang() {
-    post("Bang received: updating voice states...\n");
+    // post("Bang received: updating voice states...\n");
     // Process left and right groups separately.
     updateGroup([1,2,3,4,5,6], "LeftControlState");
     updateGroup([9,10,11,12,13,14], "RightControlState");
@@ -28,7 +28,7 @@ function updateGroup(voiceArray, controlStateName) {
         return;
     }
     var controlState = ctrlObj.getvalueof();
-    post("updateGroup: " + controlStateName + " value: " + controlState + "\n");
+    // post("updateGroup: " + controlStateName + " value: " + controlState + "\n");
 
     // Process each voice in the group.
     for (var i = 0; i < voiceArray.length; i++) {
@@ -42,9 +42,9 @@ function updateGroup(voiceArray, controlStateName) {
         // Convert the voice value to a number to ensure proper truthy/falsy evaluation.
         var rawValue = voiceObj.getvalueof();
         var voiceActive = Number(rawValue);
-        post("Updating voice" + voiceNum + " | raw active value: " + rawValue +
-             " --> numeric: " + voiceActive + 
-             ", control state: " + controlState);
+        // post("Updating voice" + voiceNum + " | raw active value: " + rawValue +
+         //    " --> numeric: " + voiceActive + 
+         //    ", control state: " + controlState);
         
         // Default values for toggles: both off.
         var panVal = 0;
@@ -66,7 +66,7 @@ function updateGroup(voiceArray, controlStateName) {
                       ") from " + controlStateName + "\n");
             }
         }
-        post(" => pan: " + panVal + ", distance: " + distanceVal + "\n");
+        // post(" => pan: " + panVal + ", distance: " + distanceVal + "\n");
 
         // Update corresponding pan toggle.
         var panToggle = this.patcher.getnamed("pan" + voiceNum);

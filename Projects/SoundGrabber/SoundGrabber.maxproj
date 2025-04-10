@@ -2,8 +2,8 @@
 	"name" : "SoundGrabber",
 	"version" : 1,
 	"creationdate" : 3824490582,
-	"modificationdate" : 3827152691,
-	"viewrect" : [ 5.0, 462.0, 275.0, 108.0 ],
+	"modificationdate" : 3827158584,
+	"viewrect" : [ 5.0, 314.0, 275.0, 108.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -46,6 +46,15 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
+,
+			"interp.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
