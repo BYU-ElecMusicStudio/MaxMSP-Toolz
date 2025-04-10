@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 2126.0, 1075.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 874.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1217.0, 1237.0, 50.0, 62.0 ],
-					"text" : "/ext/src/1/p 0.957889"
+					"text" : "/ext/src/1/p 0.94275"
 				}
 
 			}
@@ -323,7 +323,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1159.817719459533691, 853.333358764648438, 297.0, 22.0 ],
-					"text" : "0 71.81 164.84"
+					"text" : "stop"
 				}
 
 			}
@@ -1049,7 +1049,7 @@
 							"filename" : "SpatialPlotter.maxsnap",
 							"filepath" : "~/Documents/GitHub/MaxMSP-Toolz/Projects/SpatialPlotter/data",
 							"filepos" : -1,
-							"snapshotfileid" : "187d44ba1702b245cf3dbd38047b287d"
+							"snapshotfileid" : "f2633a5f5e17df8a6d901702b353c881"
 						}
 
 					}

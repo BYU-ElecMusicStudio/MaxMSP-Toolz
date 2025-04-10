@@ -2,8 +2,8 @@
 	"name" : "Toolz",
 	"version" : 1,
 	"creationdate" : 3790601824,
-	"modificationdate" : 3825265543,
-	"viewrect" : [ 25.0, 158.0, 300.0, 448.0 ],
+	"modificationdate" : 3827098597,
+	"viewrect" : [ 5.0, 926.0, 273.0, 120.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -84,14 +84,15 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"DirectMonitor.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
-		"media" : 		{
-
-		}
-,
-		"externals" : 		{
+		"other" : 		{
 
 		}
 
