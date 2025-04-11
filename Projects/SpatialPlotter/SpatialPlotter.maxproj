@@ -2,7 +2,7 @@
 	"name" : "SpatialPlotter",
 	"version" : 1,
 	"creationdate" : 3826284497,
-	"modificationdate" : 3826474161,
+	"modificationdate" : 3827176043,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,6 +26,21 @@
 		"media" : 		{
 			"lsbuilding.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"SBD_007BT51_Full Show Friday 5_00pm- Quiver 1_50 _ Drone 10_51 _ Couplet 21_48 _ Drone 30_21 _ Kurt 35_40.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"SBD_007BT52_Kurt.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"SBD_007BT49_Quiver 0_37 _ Drone 10_00.wav" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 
