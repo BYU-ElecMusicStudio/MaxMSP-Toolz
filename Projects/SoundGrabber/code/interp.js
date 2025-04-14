@@ -10,8 +10,8 @@ outlets = 1;
 // Global variables
 var current = 0.0;      // The current (output) value
 var target = 0.0;       // The target value to move toward
-var speedVal = 0.01;     // The fixed step (speed) per update
-var threshold = 0.001;  // If the difference is below this, no further update is needed.
+var speedVal = 1;     // The fixed step (speed) per update
+var threshold = 3;  // If the difference is below this, no further update is needed.
 var running = false;    // Indicates whether our periodic update is active
 
 // Polyfill for Math.sign for environments that may not support it.
@@ -27,7 +27,7 @@ if (typeof Math.sign !== "function") {
 
 // Create the update task (but do not start it yet).
 var updateTask = new Task(update, this);
-updateTask.interval = 33;  // ~30 updates per second
+updateTask.interval = 1;  // ~30 updates per second
 
 //---------------------------------------------------------------------
 // Input handling: called when a float message is received.

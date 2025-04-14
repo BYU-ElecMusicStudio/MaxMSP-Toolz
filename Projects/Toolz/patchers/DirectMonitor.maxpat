@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1214.0, 102.0, 640.0, 480.0 ],
+		"rect" : [ 1692.0, 102.0, 162.0, 319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,9 +45,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 230.0, 202.0, 56.0, 22.0 ],
+					"patching_rect" : [ 86.0, 138.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -25.345563763292468 ]
+						"live.gain~" : [ -70.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -64,7 +64,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 159.0, 165.0, 48.0, 136.0 ],
+					"patching_rect" : [ 15.0, 101.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -88,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 159.0, 75.0, 55.0, 22.0 ],
+					"patching_rect" : [ 15.0, 11.0, 55.0, 22.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -99,7 +99,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 337.0, 68.0, 22.0 ],
+					"patching_rect" : [ 15.0, 273.0, 68.0, 22.0 ],
 					"text" : "dac~ 29 30"
 				}
 

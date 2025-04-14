@@ -11,7 +11,8 @@
 		"valuedictionary" : 		{
 			"parameter_values" : 			{
 				"live.tab" : 0.0,
-				"live.text" : 0.0
+				"live.text" : 0.0,
+				"mc.live.gain~" : -70.0
 			}
 
 		}

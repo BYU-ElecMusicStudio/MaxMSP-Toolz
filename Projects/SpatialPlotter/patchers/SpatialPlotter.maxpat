@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1237.0, 874.0 ],
+		"rect" : [ 35.0, 87.0, 1264.0, 874.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,34 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"lastchannelcount" : 32,
+					"maxclass" : "mc.live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1674.000054121017456, 1029.266679763793945, 206.0, 119.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 906.498011430336874, 533.266664981842041, 206.0, 119.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "mc.live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "mc.live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "mc.live.gain~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "meter~",
@@ -251,6 +279,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1832.036630868911743, 261.0, 48.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.036630868911743, 4.0, 48.0, 22.0 ],
 					"text" : "replace"
 				}
 
@@ -867,8 +897,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 947.0, 744.0, 102.0 ],
-					"text" : "loadplots 0.160542 0.437751 0.183752 0.463855 0.411992 0.495984 0.422631 0.52008 0.364786 0.468687 0.718569 0.576305 0.521401 0.486869 0.350097 0.447791 0.391683 0.51004 0.393617 0.465863 0.466151 0.365462 0.444874 0.491968 0.226306 0.421687 0.487427 0.483936 0.526112 0.544177 0.259728 0.422222 0.561896 0.487952 0.567698 0.540161 0.719536 0.558233 0.608317 0.52008 0.546422 0.698795 0.596712 0.578313 0.647969 0.461847 0.642166 0.61245 0.640232 0.570281 0.670213 0.598394 0.668288 0.553535 0.70793 0.532129 0.691489 0.532129 0.72824 0.534137 0.731141 0.578313 0.7393 0.551515, loadlistener 0.121857 0.437751 0.180851 0.455823 0.240812 0.389558 0.276596 0.467871 0.37234 0.453815 0.415861 0.512048 0.55706 0.497992 0.654739 0.608434 0.680851 0.552209 0.737911 0.552209, loadsegtime 20000 20000 20000 20000 20000 20000 20000 20000 20000"
+					"patching_rect" : [ 177.0, 947.0, 749.0, 102.0 ],
+					"text" : "loadplots 0.160542 0.437751 0.183752 0.463855 0.411992 0.495984 0.422631 0.52008 0.364786 0.468687 0.718569 0.576305 0.521401 0.486869 0.350097 0.447791 0.393617 0.495984 0.393617 0.465863 0.466151 0.365462 0.443907 0.497992 0.226306 0.421687 0.485493 0.491968 0.505803 0.516064 0.259728 0.422222 0.561896 0.487952 0.573501 0.53012 0.719536 0.558233 0.608317 0.52008 0.546422 0.698795 0.596712 0.578313 0.647969 0.461847 0.642166 0.61245 0.640232 0.570281 0.670213 0.598394 0.668288 0.553535 0.70793 0.532129 0.691489 0.532129 0.72824 0.534137 0.731141 0.578313 0.7393 0.551515, loadlistener 0.121857 0.437751 0.180851 0.455823 0.240812 0.389558 0.276596 0.467871 0.37234 0.453815 0.415861 0.512048 0.55706 0.497992 0.654739 0.608434 0.680851 0.552209 0.737911 0.552209, loadsegtime 20000 20000 20000 20000 20000 20000 20000 20000 20000"
 				}
 
 			}
@@ -896,6 +926,7 @@
 						"color" : [ 0.125, 0.197037436068058, 1.0, 1.0, 0.652945250272751, 1.0, 0.5625 ],
 						"live.tab" : [ 0.0 ],
 						"live.text" : [ 0.0 ],
+						"mc.live.gain~" : [ -70.0 ],
 						"plotsize" : [ 0.03 ]
 					}
 ,
@@ -1015,8 +1046,28 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "channels",
+					"id" : "obj-8",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 893.333359999999971, 1115.60001699999998, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -1298,16 +1349,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1604,6 +1655,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-18" : [ "live.tab", "live.tab", 0 ],
 			"obj-2" : [ "live.text", "live.text", 0 ],
 			"obj-3" : [ "jsui", "jsui", 0 ],
@@ -1617,6 +1669,19 @@
 			}
 ,
 			"inherited_shortname" : 1
+		}
+,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"mc.live.gain~" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : -70.0,
+					"max" : 6.0,
+					"flags" : 2
+				}
+
+			}
+
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1655,7 +1720,8 @@
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"live.tab" : 0.0,
-						"live.text" : 0.0
+						"live.text" : 0.0,
+						"mc.live.gain~" : -70.0
 					}
 
 				}
@@ -1677,7 +1743,8 @@
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"live.tab" : 0.0,
-									"live.text" : 0.0
+									"live.text" : 0.0,
+									"mc.live.gain~" : -70.0
 								}
 
 							}
